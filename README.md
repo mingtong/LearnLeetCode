@@ -77,9 +77,11 @@
 
 ![Java 数据结构关系图](http://img.blog.csdn.net/20171110151742337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
+--- 
+
 # LeetCode 解题
 | 序号        | 标题    |  知识点  | 难度 | 推荐指数
-| --------   | :-----   | :---- |
+| :--------  | :-----  | :----   |:---:|:---:
 | 1 | [Two sum](http://blog.csdn.net/cuit/article/details/78505630) | HashMap | Easy | 9 
 | 2 | [Add two numbers](http://blog.csdn.net/cuit/article/details/78505880)      |   链表合并  | Medium | 8
 | 3 | [Longest Substring Without Repeating Characters](http://blog.csdn.net/cuit/article/details/78506294) | HashSet | Medium | 9
