@@ -75,7 +75,7 @@
 
 **Java 数据结构关系图：**
 
-![Java 数据结构关系图](http://img.blog.csdn.net/20171110151742337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Java 数据结构关系图](solution/img/java-ds.png)
 
 --- 
 
@@ -126,38 +126,4 @@
 | 100 | Same Tree  
 | 104 | Maximum Depth of Binary Tree
 | 121 | Best Time to Buy and Sell Stock
-| 136 | Single Number 
-| 141 | Linked List Cycle
-| 142 | Linked List Cycle II
-| 144 | Binary Tree Preorder Traversal
-| 147 | Insertion Sort List
-| 160 | Intersection of Two Linked Lists
-| 169 | Majority Element 
-| 203 | Remove Linked List Elements
-| 206 | Reverse Linked List 
-| 217 | Contains Duplicate
-| 226 | Invert Binary Tree
-| 230 | Kth Smallest Element in a BST 
-| 234 | Palindrome Linked List 
-| 237 | Delete Node in a Linked List 
-| 242 | Valid Anagram
-| 258 | Add Digits
-| 268 | Missing Number
-| 283 | Move Zeroes
-| 292 | Nim Game
-| 328 | Odd Even Linked List
-| 344 | Reverse String
-| 347 | Top K Frequent Elements 
-| 349 | Intersection of Two Arrays 
-| 350 | Intersection of Two Arrays II 
-| 412 | Fizz Buzz 
-| 445 | Add Two Numbers II 
-| 451 | Sort Characters By Frequency 
-| 461 | Hamming Distance 
-| 463 | Island Perimeter 
-| 500 | Keyboard Row
-| 557 | Reverse Words in a String III 
-| 595 | Big Countries
-| 617 | Merge Two Binary Trees
-| 637 | Average of Levels in Binary Tree 
-| 657 | Judge Route Circle 
+| 136 | Single Number
