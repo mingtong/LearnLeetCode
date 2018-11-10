@@ -1,9 +1,9 @@
-算法与数据基础
+# 算法与数据基础
 
 **参考书籍**：
 
- - [《算法》第4版](https://item.jd.com/11098789.html)，[英文版讲解地址]，(http://algs4.cs.princeton.edu/home/)，Java语言描述
- - [《算法导论》](https://item.jd.com/11144230.html)，英文名《Introduction to Algorithms, third edition》，伪代码描述
+ - [《算法》第4版中文版](https://item.jd.com/11098789.html)，[英文版官网讲解链接](http://algs4.cs.princeton.edu/home/)，Java语言描述
+ - [《算法导论》中文版](https://item.jd.com/11144230.html)，英文名《Introduction to Algorithms, third edition》，伪代码描述
 
 **基础数据结构**：
 
@@ -75,9 +75,9 @@
 
 **Java 数据结构关系图：**
 
-![这里写图片描述](http://img.blog.csdn.net/20171110151742337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Java 数据结构关系图](http://img.blog.csdn.net/20171110151742337?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-LeetCode 解题
+# LeetCode 解题
 | 序号        | 标题    |  知识点  | 难度 | 推荐指数
 | --------   | :-----   | :---- |
 | 1 | [Two sum](http://blog.csdn.net/cuit/article/details/78505630) | HashMap | Easy | 9 
