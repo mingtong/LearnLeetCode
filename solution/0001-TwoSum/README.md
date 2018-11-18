@@ -1,8 +1,8 @@
 #### 题目描述：
 给出一个数组 nums，找出其中两个和为 target 值的元素的索引，注意：有且只有一对值符合要求。如：
-> Given nums = [2, 7, 11, 15], target = 9, 
-> Because nums[0] + nums[1] = 2 + 7 = 9, 
-> return [0, 1].
+> Given nums = [2, 7, 11, 15], target = 9,
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
 
 #### 思路：
 
