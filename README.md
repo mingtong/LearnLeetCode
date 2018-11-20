@@ -77,7 +77,7 @@
 
 **Java 数据结构关系图：**
 
-![Java 数据结构关系图](solution/img/java-ds.png)
+![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
 
 --- 
 
