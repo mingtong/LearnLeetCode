@@ -1,4 +1,4 @@
-### LRU-Cache
+## LRU-Cache
 
 LRU == Least Recently Used. 
 LRU 的内部继承于 LinkedHashMap。LRUCache 将元素按照访问的先后顺序保存在一条双向链接中，并保存指向开头和结尾的指针。将元素作为key，元素在链接中的位置作为value 保存起来。
