@@ -2,7 +2,7 @@
 
 Stack在C#和Java中都有现成的定义，且在LeetCode中也可以直接使用。 
 其泛型版本定义的主要属性和方法如下：
-```
+``` C#
 public class Stack<T>
 {
     public int Count;
