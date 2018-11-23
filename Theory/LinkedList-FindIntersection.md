@@ -1,7 +1,7 @@
  ## 找到两个链表中的交点
  
  #### 单链表数据结构：
- ```
+ ```c#
  //Definition for singly-linked list.
  public class ListNode 
  {
@@ -19,7 +19,7 @@
 * 如果两个链表长度不同，且有交点，那么在第一次遍历时肯定不会在交点处相遇，当更短的链表先到达尾结点时，切换到长链表，而长链表到达尾结点时也切换到短链表，这样两条路线遍历的长度相等，都是“长链表+短链表”的长度，则第二次遍历时即会相遇。
 * 如果两个链表长度不同，没有交点，那么即使切换线路也永远不会相遇，但是两条路线遍历的长度相等，都是“长链表+短链表”的长度，则第二次遍历时，最终会同时到达各尾结点的下一个结点，即null，循环结束，返回null。
 
-```
+```C#
 public ListNode getIntersectionNode(ListNode headA, ListNode headB)
 {
     //boundary check
