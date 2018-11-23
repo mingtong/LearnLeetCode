@@ -1,6 +1,6 @@
 ## 找到链表中的环
 
-```
+``` C#
  //Definition for singly-linked list.
  public class ListNode 
  {
@@ -12,7 +12,7 @@
 
 有两个指针快慢套跑遍历，快指针每次走两格，慢指针每次走一格，当快慢指针相遇时，即有环。如果快指针走到末尾（循环结束）都没有相遇，则无环。
 
-```
+``` C#
 public bool HasCycle(ListNode head)
 {
     if (head == null)
