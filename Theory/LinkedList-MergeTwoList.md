@@ -1,7 +1,7 @@
 ## 合并两个有序链表
 
 #### 单链表数据结构：
-```
+``` C#
  //Definition for singly-linked list.
  public class ListNode 
  {
@@ -18,7 +18,7 @@
 - 其中一个链表为空的情况，显然，那就不用合并了。
 - 当其中一个链表已经为空时，将新链表的next指向另一条链表即可。
 
-```
+``` c#
 public ListNode MergeTwoLists(ListNode l1, ListNode l2)
 {
     if (l1 == null)
