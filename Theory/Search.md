@@ -11,5 +11,6 @@
 - 散列表（hash 表）
 
 符号表一般支持这些接口：
+
 ![](https://algs4.cs.princeton.edu/31elementary/images/symbol-table-api.png)
 
