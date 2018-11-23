@@ -1,4 +1,4 @@
-# LeetCode 解题
+# LeetCode Solution
 
 ### Array
   - #26 Remove Duplicates from Sorted Array 
