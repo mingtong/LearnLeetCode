@@ -1,4 +1,4 @@
-### HashTable
+## HashTable
 
 假设待查找的对象是这样存在的：[key1, value1], [key2, value2], [keyX, valueX], … 我们可以把key的列表转过转化存入HashTable中。 
 使用基于HashTable的查找需要两步：
