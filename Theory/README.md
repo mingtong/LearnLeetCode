@@ -4,7 +4,7 @@
 
 #### String
 
-#### LinkedList
+#### [LinkedList](LinkedList.md) 
 
 #### Queue
 
