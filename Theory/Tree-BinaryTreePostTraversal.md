@@ -5,7 +5,7 @@
 #### 递归实现
 ``` C#
 public class Solution {
-    public IList<int> PreorderTraversal(TreeNode root) 
+    public IList<int> PostOrderTraversal(TreeNode root) 
     {
         List<int> result = new List<int>();
         if (root != null)
@@ -23,7 +23,7 @@ public class Solution {
 
 ``` C#
 public class Solution {
-    public IList<int> PostorderTraversal(TreeNode root) {
+    public IList<int> PostOrderTraversal(TreeNode root) {
         List<int> result = new List<int>();
         Stack<TreeNode> stack = new Stack<TreeNode>();
         TreeNode p = root;
