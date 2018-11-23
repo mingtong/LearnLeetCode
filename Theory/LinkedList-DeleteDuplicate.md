@@ -1,7 +1,7 @@
 ## 删除链表中的重复结点
 
 #### 单链表数据结构：
-```
+``` C#
  //Definition for singly-linked list.
  public class ListNode 
  {
@@ -19,7 +19,7 @@
 头结点或者头结点的下一结点为空的情况。
 第n个结点与第n+1，第n+2个结点都相同的情况，需要将这两个结点都删除
 
-```
+``` C#
 public ListNode DeleteDuplicates (ListNode head) 
 {
     if (head == null || head.next == null) 
