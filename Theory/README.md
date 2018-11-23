@@ -1,40 +1,41 @@
-# LeetCode Solution
+# LeetCode Theory
 
-### Array
+#### Array
 
-### String
+#### String
 
-### LinkedList
+#### LinkedList
 
-### Queue
+#### Queue
 
-### Stack
+#### Stack
 
-### Heap
-### Hash (HashSet HashMap)
+#### Heap
 
-### Tree (Binary Tree)
-### Trie (Dictionary Tree)
+#### Hash (HashSet HashMap)
 
-### Graph
-### Geometry
+#### Tree (Binary Tree)
+#### Trie (Dictionary Tree)
+
+#### Graph
+#### Geometry
 ---
-### Recursion
+#### Recursion
 
-### DFS
-### BFS
-### DP
+#### DFS
+#### BFS
+#### DP
   - Basic Theory
   - [Top 50 Dynamic Programming Practice Problems](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)
   - [Top Coder DP introduction](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
-### UnionFind
-### Greedy
-### Backtracking
-### BitOperation
-### Minimax
-### DivideAndConquer
-### Regex
+#### UnionFind
+#### Greedy
+#### Backtracking
+#### BitOperation
+#### Minimax
+#### DivideAndConquer
+#### Regex
 
-### Math
+#### Math
 
 
