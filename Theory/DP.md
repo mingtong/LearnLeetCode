@@ -52,3 +52,8 @@ int Fibonacci(int n)
 > - http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf 
 > - http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static 
 > - http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf
+
+#### 练习题
+
+> - https://people.cs.clemson.edu/~bcdean/dp_practice/ 
+> - https://www.hackerrank.com/domains/algorithms/dynamic-programming
