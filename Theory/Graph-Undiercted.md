@@ -98,7 +98,7 @@
 下面是结点存储方式：
 ![](https://algs4.cs.princeton.edu/41graph/images/adjacency-lists.png)
 
-```
+``` C#
 public class Graph {
     private final int V;
     private int E;
