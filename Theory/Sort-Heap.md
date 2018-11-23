@@ -26,7 +26,7 @@
 
 ![](https://algs4.cs.princeton.edu/24pq/images/swim.png)
 
-```
+``` C#
 public void swim(int k)
 {
     while(k > 1 && k/2  < k)
@@ -41,7 +41,7 @@ public void swim(int k)
 
 ![](https://algs4.cs.princeton.edu/24pq/images/sink.png)
 
-```
+``` C#
 public void sink(int k)
 {
     while(2*k < = N)
@@ -73,7 +73,7 @@ public void sink(int k)
 - 将数组构造成堆：从右至左用 sink() 函数构造子堆。
 - 下沉排序，从堆中按递减顺序取出所有元素并排序。
 
-```
+``` C#
 public void sort(int[] a)
 {
     int N = a.Length;
