@@ -7,7 +7,7 @@
 合并排序把数组分成两个数组分别排序再合并，而快速排序的方式是两个子数组都有序时整个数组也就有序了。 
 合并排序按数量将数组分成两半，快速排序按大小将数组分成两半。
 
-```
+``` C#
 public void QuickSort(int[] a, int low, int high)
 {
     if(high >= low)
@@ -23,7 +23,7 @@ public void QuickSort(int[] a, int low, int high)
 ![](https://algs4.cs.princeton.edu/23quicksort/images/partitioning.png)
 
 切分过程
-```
+```C#
 public int Partition(int[] a, int low, int high)
 {
     int i = low;
@@ -57,7 +57,7 @@ public int Partition(int[] a, int low, int high)
 ```
 
 Dijkstra提出的三向切分法：
-```
+``` C#
 public void sort(int[] a, int low, int high)
 {
     if(high >= low)
