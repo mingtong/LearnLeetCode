@@ -1,7 +1,7 @@
 ## 反转链表
 
 #### 单链表数据结构：
-```
+``` C#
  //Definition for singly-linked list.
  public class ListNode 
  {
@@ -19,7 +19,7 @@ first：指向原结点其余结点的头结点
 second：指向原结点其余结点的头结点的下一个结点
 newHead：指向新链表的头结点
 
-```
+``` C#
 public ListNode ReverseList(ListNode head) 
 {
     ListNode newHead = null;
@@ -37,7 +37,7 @@ public ListNode ReverseList(ListNode head)
 
 #### 递归思路： 
 先颠倒第 n-1 个结点，然后将原链表的首结点插入到新链表的末尾。
-```
+``` C#
 public ListNode reverse(ListNode head)
 {
     //递归的退出条件
