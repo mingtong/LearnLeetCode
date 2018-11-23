@@ -22,7 +22,7 @@
 
 - 浮点数：如果 key 是 0~1 之间的实数，则将 key 表示为2进制数再作 k % M。
 - 字符串：将字符串转换为大整数，再 k % M。算法如下： R 是 一个小的质数（Java的String实现使用的是31）。
-```
+``` Java
 int hash = 0;
 for (int i = 0; i < s.length(); i++){
     hash = (R * hash + s.charAt(i)) % M;
@@ -30,7 +30,7 @@ for (int i = 0; i < s.length(); i++){
 ```
 
 - 组合实现，比如 年，月，日表示的日期：
-```
+``` Java
 int hash = (((area * R + exch) % M) * R + ext) % M; 
 ```
 
