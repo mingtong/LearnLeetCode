@@ -16,12 +16,12 @@
 
 如果一幅图是非连通的，则只能用这个算法计算所有连通分量的最小生成树，合并在一起叫做**最小生成森林**。
 
-还有几点要注意的：
+#### 还有几点要注意的：
 - 边的权重未必是距离。
 - 边的权重可能小于等于 0。
 - 所有边的权重都可能相同也可能不相同。
 
-两个性质：
+#### 两个性质：
 - 用一条边连接树中的任意两个顶点都会产生一个新的环。 
 
 ![](https://algs4.cs.princeton.edu/43mst/images/tree-add-edge.png)
@@ -40,7 +40,7 @@
 
 ![](https://algs4.cs.princeton.edu/43mst/images/mst-greedy.png)
 
-### 带权重的边的数据结构：
+#### 带权重的边的数据结构：
 
 ``` Java
 public class Edge implements Comparable<Edge> {
