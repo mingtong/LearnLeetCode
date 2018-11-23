@@ -1,7 +1,7 @@
 ## 链表
 
 #### 单链表数据结构：
-```
+``` C#
 //Definition for singly-linked list.
 public class ListNode 
 {
