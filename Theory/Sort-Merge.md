@@ -5,7 +5,7 @@
 
 递归的实现（自上至下）
 
-```
+``` C#
 public void sort(int[] a, int low, int high)
 {
     if(high <= low)
@@ -21,7 +21,7 @@ public void sort(int[] a, int low, int high)
 
 非递归实现（自下向上）
 
-```
+``` C#
 public sort(int[] a)
 {
     //进行lgN次合并
