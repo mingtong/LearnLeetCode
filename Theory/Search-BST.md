@@ -15,7 +15,7 @@
 ![](https://algs4.cs.princeton.edu/32bst/images/bst-search.png)
 
 基于二叉查找树的符号表的定义：
-```
+```C#
 public class BST
 {
     private Node root;
@@ -92,7 +92,7 @@ public class BST
 ![](https://algs4.cs.princeton.edu/32bst/images/bst-delete.png)
 
 删除代码如下：
-```
+```C#
 public Node delete(Node x, int key)
 {
     if(x == null)
