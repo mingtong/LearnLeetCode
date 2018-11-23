@@ -25,7 +25,7 @@
   - #14 [Longest Common Prefix](http://blog.csdn.net/cuit/article/details/78556278)
 ### Graph
 ### Geometry
-
+---
 ### Recursion
   - #7 [Reverse Integer](http://blog.csdn.net/cuit/article/details/78509086)
 ### DFS
@@ -47,27 +47,3 @@
   - #12 Integer to Roman
   - #13 Roman to Integer
 
-  
-| 11 | Container With Most Water
-| 15 | 3Sum  
-| 16 | 3Sum Closest 
-| 17 | Letter Combinations of a Phone Number 
-| 18 | 4Sum   
-| 22 | Generate Parentheses   
-| 23 | Merge k Sorted Lists
-| 25 | Reverse Nodes in k-Group  
-| 35 | Search Insert Position | |　Easy　|　8
-| 54 | Spiral Matrix
-| 67 | Add Binary  |  |　Easy　|　8
-| 70 | Climbing Stairs |  |　Easy　|　9
-| 74 | Search a 2D Matrix
-| 75 | Sort Colors 
-| 82 | Remove Duplicates from Sorted List II  
-| 83 | Remove Duplicates from Sorted List 
-| 86 | Partition List 
-| 92 | Reverse Linked List II 
-| 94 | Binary Tree Inorder Traversal 
-| 100 | Same Tree  
-| 104 | Maximum Depth of Binary Tree
-| 121 | Best Time to Buy and Sell Stock
-| 136 | Single Number
