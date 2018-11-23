@@ -12,7 +12,7 @@
 叫选择排序，是因为它不断地在其余元素中选择最小的那一个。 
 选择排序的移动是最少的，而交换的次数是N，其他排序算法都不具有这个性质。
 
-```
+``` C#
 public void SelectionSort(int[] a)
 {
     for(int i = 0; i < a.Length; i++)
