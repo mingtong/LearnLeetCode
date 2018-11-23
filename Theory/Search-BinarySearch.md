@@ -5,7 +5,7 @@
 
 #### 递归方式：
 
-```
+``` C#
 int[] Keys;
 public int search(int key, int low, int high)
 {
@@ -31,7 +31,7 @@ public int search(int key, int low, int high)
 
 #### 迭代方式：
 
-```
+``` C#
 int[] Keys;
 public int search(int key)
 {
