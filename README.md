@@ -5,6 +5,8 @@
  - [《算法》第4版中文版](https://item.jd.com/11098789.html)，[英文版官网讲解链接](http://algs4.cs.princeton.edu/home/)，Java语言描述
  - [《算法导论》中文版](https://item.jd.com/11144230.html)，英文名《Introduction to Algorithms, third edition》，伪代码描述
 
+---
+
 ### 基础数据结构：
 
 |类型|英文名/类名|特点|有用链接|
@@ -18,20 +20,20 @@
 | [二叉树基础](Theory/Tree-BinaryTree.md) |BinaryTree || |
 | [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树基础 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
-|TreeMap |TreeMap |内部是红黑树存储, key有序 ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
-|SortedSet |SortedSet |内部是红黑树存储|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
-|TreeSet |TreeSet |继承于SortedSet红黑树 |[.NET官方源码](http://referencesource.microsoft.com/#System/compmod/system/collections/generic/sorteddictionary.cs,07052c0941912f81) |
-SortedDictionary |SortedDictionary |内部元素是TreeSet |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
-SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
+|TreeMap(Java) |TreeMap |key有序的红黑树,  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
+|SortedSet(.NET) |SortedSet |内部是红黑树|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|TreeSet(.NET) |TreeSet |继承于SortedSet红黑树 |[.NET官方源码](http://referencesource.microsoft.com/#System/compmod/system/collections/generic/sorteddictionary.cs,07052c0941912f81) |
+SortedDictionary(.NET) |SortedDictionary |内部元素是TreeSet |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
+SortedList(.NET) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
 | [x][HashMap(Java)](Theory/HashTable.md) | |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |LinkedHashMap| | | |
-|Dictionary  | |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
-|HashSet | |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
+|Dictionary(.NET)  | |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
+|HashSet(.NET) | |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
 | [单词查找树/字典树](Theory/Tree-Trie.md) |Trie | | |
-| [并查集](Theory/UnionFind.md) |DisjointSet/UnionFind || |
+| [并查集](Theory|UnionFind.md) |DisjointSet|UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
 
----
+
 
 <!---
  - [数组](Theory/Array.md)
