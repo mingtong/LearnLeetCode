@@ -9,12 +9,12 @@
 
 |类型|英文名/类名|特点|有用链接|
 | :---|:---  |:---|:---|
-| [x][数组](Theory/Array.md) |Array | | |
+| 数组|Array | | |
 | [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
 | [栈](Theory/Stack.md) |Stack| ||
-| [x][队列](Theory/Queue.md) |Queue | ||
+| 队列 |Queue | ||
 | [链表](Theory/LinkedList.md)|LinkedList| ||
-| [堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java实现源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
+| [堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
 | [二叉树基础](Theory/Tree-BinaryTree.md) |BinaryTree || |
 | [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树基础 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
@@ -31,10 +31,10 @@ SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github
 | [并查集](Theory/UnionFind.md) |DisjointSet/UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
 
+---
 
-
-
- - [x][数组](Theory/Array.md)
+<!---
+ - [数组](Theory/Array.md)
  - [位运算](Theory/BitwiseOperation.md)
  - [栈](Theory/Stack.md)
  - [x][队列](Theory/Queue.md)
@@ -64,7 +64,8 @@ SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github
 	 - [拓扑排序](Theory/Topology.md)
 	 - [强连通性](Theory/StronglyConnected.md)
 	 - [最小生成树](Theory/MinimumSpanningTree.md)
-
+	 --->
+---
 ### 基础算法：
 
  - [排序](Theory/Sort.md)
