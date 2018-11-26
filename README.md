@@ -20,18 +20,18 @@
 | [二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 | [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
-|[Java红黑树kv实现](https://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html) |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
-|[.NET红黑树kv实现](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.2) |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
+|[Java红黑树kv列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html) |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
+|[.NET红黑树kv列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.2) |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
 |[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
-|[Java.红黑树k实现](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |TreeSet |红黑树方式存储的去重key列表 | |
-|[.NET红黑树k实现](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|[Java.红黑树k列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |TreeSet |红黑树方式存储的去重key列表 | |
+|[.NET红黑树k列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
 |[哈希](Theory/HashTable.md) |Hash | ||
 |[.NET哈希表](Theory/HashTable.md) |Dictionary |泛型的HashTable |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
 |[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |[链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
 |Hash列表集合 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 | [字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
-| [并查集](Theory\UnionFind.md) |DisjointSet\|UnionFind || |
+| [并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
 
 **注意**：
