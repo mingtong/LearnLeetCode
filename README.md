@@ -27,18 +27,9 @@ SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github
 | -----|LinkedHashMap | | |
 |  |Dictionary |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
 | |HashSet |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
-| [Trie（单词查找树）](Theory/Tree-Trie.md) |Trie | | |
-| [DisjointSet(Union Find)](Theory/UnionFind.md) |DisjointSet || |
+| [单词查找树/字典树](Theory/Tree-Trie.md) |Trie | | |
+| [并查集](Theory/UnionFind.md) |DisjointSet/UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
-	
-	 
-
-	 - [无向图](Theory/Graph-Undirected.md)
-	 - [有向图](Theory/Graph-Directed.md)
-	 - [连通分量](Theory/Graph-ConnectedComponenet.md)
-	 - [拓扑排序](Theory/Topology.md)
-	 - [强连通性](Theory/StronglyConnected.md)
-	 - [最小生成树](Theory/MinimumSpanningTree.md)
 
 
 
