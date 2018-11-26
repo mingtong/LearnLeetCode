@@ -7,6 +7,41 @@
 
 ### 基础数据结构：
 
+|类型|英文名/类名|小分类|特点|有用链接|
+| :---|:---  | :--- |:---|:---|
+| [x][数组](Theory/Array.md) |Array |----- | | |
+| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|---     | ||
+| [栈](Theory/Stack.md) |Stack|---     | ||
+| [x][队列](Theory/Queue.md) |Queue |---     | ||
+| [链表](Theory/LinkedList.md)|LinkedList|---     | ||
+| [堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue|--- |    |[Java实现源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
+| [二叉树基础](Theory/Tree-BinaryTree.md) |BinaryTree |--- | | |
+|--- |BinarySearchTree |[二叉搜索树](Theory/Search-BST.md) |有序的二叉树 | |
+|--- |RBTree  |[红黑树基础 ](Theory/Tree-RBTree.md) |平衡的二叉搜索树 | |
+|--- |TreeMap |内部是红黑树存储 |key有序 ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
+|--- |SortedSet |内部是红黑树存储 | |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|--- |TreeSet |继承于SortedSet红黑树 | |[.NET官方源码](http://referencesource.microsoft.com/#System/compmod/system/collections/generic/sorteddictionary.cs,07052c0941912f81) |
+|--- |SortedDictionary |内部元素是TreeSet | |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
+|--- |SortedList |内部是两个数组 | |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
+| [x][HashMap(Java)](Theory/HashTable.md) | |----- |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
+| -----|LinkedHashMap | | | |
+|  |Dictionary |----- |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
+| |HashSet |----- |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
+			 - [LRUCache](Theory/CacheLRUCache.md)
+	 
+ - [Trie（单词查找树）](Theory/Tree-Trie.md)
+ - [Disjoint Set(Union Find)](Theory/UnionFind.md)
+ - [图](Theory/Graph.md)
+	 - [无向图](Theory/Graph-Undirected.md)
+	 - [有向图](Theory/Graph-Directed.md)
+	 - [连通分量](Theory/Graph-ConnectedComponenet.md)
+	 - [拓扑排序](Theory/Topology.md)
+	 - [强连通性](Theory/StronglyConnected.md)
+	 - [最小生成树](Theory/MinimumSpanningTree.md)
+
+
+
+
  - [x][数组](Theory/Array.md)
  - [位运算](Theory/BitwiseOperation.md)
  - [栈](Theory/Stack.md)
