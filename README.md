@@ -25,6 +25,7 @@
 |[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
 |[Java.红黑树k实现](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |TreeSet |只有Key的红黑树，实现SortedSet接口 | |
 |[.NET红黑树k实现](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |只有Key的红黑树|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|[Hash](Theory/HashTable.md) | | ||
 |[HashMap(Java)](Theory/HashTable.md) | |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |LinkedHashMap| | | |
 |Dictionary(.NET)  | |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
@@ -36,6 +37,7 @@
 **注意**：
 - SortSet 在Java中是接口，在.NET中是具体类
 - List在 Java中是接口，在.NET中是具体类
+- TreeSet 在Java中是具体类，在.NET中是内部类
 
 
 
