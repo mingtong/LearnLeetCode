@@ -32,6 +32,10 @@
  - [图](Theory/Graph.md)
 	 - [无向图](Theory/Graph-Undirected.md)
 	 - [有向图](Theory/Graph-Directed.md)
+	 - [连通分量](Theory/Graph-ConnectedComponenet.md)
+	 - [拓扑排序](Theory/Topology.md)
+	 - [强连通性](Theory/StronglyConnected.md)
+	 - [最小生成树](Theory/MinimumSpanningTree.md)
 
 ### 基础算法：
 
@@ -41,12 +45,7 @@
  - [图](Theory/Graph.md)
 	 - [DFS](Theory/Graph-DFS.md)
 	 - [BFS](Theory/Graph-BFS.md) 
-	 - [连通分量](Theory/Graph-ConnectedComponenet.md)
 	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
-	 - [有向图](Theory/Graph-Directed.md)
-	 - [拓扑排序](Theory/Topology.md)
-	 - [强连通性](Theory/StronglyConnected.md)
-	 - [最小生成树](Theory/MinimumSpanningTree.md)
 	 - [最短路径](Theory/Graph-ShortestPath.md)
 		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
 		 - Bellman-Ford 算法
@@ -64,7 +63,7 @@
  - 拓扑排序
  - 递归算法
 
-**高级算法**：
+### 高级算法：
 
  - 线段树
  - Minimax
@@ -75,7 +74,7 @@
  - 博弈论
  - NP问题 
 
-**Java 数据结构关系图：**
+### Java 数据结构关系图：
 
 ![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
 
