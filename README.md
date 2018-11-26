@@ -7,10 +7,10 @@
 
 ### 基础数据结构：
 
- - [数组](Theory/Array.md)
+ - [x][数组](Theory/Array.md)
  - [位运算](Theory/BitwiseOperation.md)
  - [栈](Theory/Stack.md)
- - [队列](Theory/Queue.md)
+ - [x][队列](Theory/Queue.md)
  - [链表](Theory/LinkedList.md)
  - [堆 (优先队列 Priority Queue)](Theory/Sort-Heap.md)
  	- [Java实现源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)
@@ -51,7 +51,7 @@
 		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
 		 - Bellman-Ford 算法
 		 - A* 算法
- - [字符串](Theory/String.md)
+ - [x][字符串](Theory/String.md)
 	 - 字符串排序
 	 - 字符串查找(KMP查找)
 	 - 压缩编码
