@@ -24,9 +24,9 @@
 SortedDictionary |SortedDictionary |内部元素是TreeSet |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
 SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
 | [x][HashMap(Java)](Theory/HashTable.md) | |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
-| -----|LinkedHashMap | | |
-|  |Dictionary |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
-| |HashSet |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
+|LinkedHashMap| | | |
+|Dictionary  | |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
+|HashSet | |only key |[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b) |
 | [单词查找树/字典树](Theory/Tree-Trie.md) |Trie | | |
 | [并查集](Theory/UnionFind.md) |DisjointSet/UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
@@ -50,10 +50,10 @@ SortedList |SortedList |内部是两个数组 |[.NET官方源码](https://github
 	   	 - SortedDictionary, [.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs)，内部元素是TreeSet。
 	   	 - SortedList，[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs)，内部是两个数组。
  - [HashMap](Theory/HashTable.md)
-	 - HashMap(Java-kv), [JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap)，当链接长度大于8时使用红黑树存储。
+	 - HashMap(Java键值对), [JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap)，当链接长度大于8时使用红黑树存储。
 		 - LinkedHashMap
 			 - [LRUCache](Theory/CacheLRUCache.md)
-	 - Dictionary(.NET-kv)，[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0)。
+	 - Dictionary(.NET泛型键值对)，[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0)。
 	 - HashSet(only key)，[.NET官方源码](http://referencesource.microsoft.com/#System.Core/System/Collections/Generic/HashSet.cs,2d265edc718b158b)，
  - [Trie（单词查找树）](Theory/Tree-Trie.md)
  - [Disjoint Set(Union Find)](Theory/UnionFind.md)
