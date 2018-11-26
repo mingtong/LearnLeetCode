@@ -12,7 +12,7 @@
 |类型|英文名/类名|特点|有用链接|
 | :---|:---  |:---|:---|
 | 数组|Array |快速索引 | |
-| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|节省空间||
+| [字符串](Theory/String.md)|String | | |
 | [栈](Theory/Stack.md) |Stack|先进后出 ||
 | 队列 |Queue |先进先出 ||
 | [链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
@@ -41,49 +41,50 @@
 - HashMap 当取空key时，Java返回null
 - Dictionary 当取空key时，.NET抛异常
 
----
-### 基础算法：
-
- - [排序](Theory/Sort.md)
- - [查找](Theory/Search.md) 
-	 - [Binary Search](Theory/Search-BST.md)
- - [图](Theory/Graph.md)
-	 - [DFS](Theory/Graph-DFS.md)
-	 - [BFS](Theory/Graph-BFS.md) 
-	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
-	 - [最短路径](Theory/Graph-ShortestPath.md)
-		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
-		 - Bellman-Ford 算法
-		 - A* 算法
- - [字符串](Theory/String.md)
-	 - 字符串排序
-	 - 字符串查找(KMP查找)
-	 - 压缩编码
- - [动态规划](Theory/DP.md)
- 	- [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
-	- [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox)
- - 贪心算法
- - 分治算法
- - 背包算法
- - 拓扑排序
- - 递归算法
-
-### 高级算法：
-
- - 线段树
- - Minimax
- - 线性规划
- - 计算几何
- - 近似算法
- - 网络流
- - 博弈论
- - NP问题 
-
 ### Java 数据结构关系图：
 
 ![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
 
---- 
+---
+### 基础算法：
+
+|算法|英文名|特点|有用链接|
+| :---|:---  |:---|:---|
+| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
+| [排序](Theory/Sort.md)|Sort | | |
+| [查找](Theory/Search.md) |Search | | |
+| 二分查找|Binary Search | | |
+| [深度优先查找](Theory/Graph-DFS.md)|DFS | | |
+| [广度优先查找](Theory/Graph-BFS.md) |BFS | | |
+| [最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
+| [Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
+| Bellman-Ford 算法|Bellman-Ford ShortestPath| | |
+| A* 算法|A* ShortestPath| | |
+| 字符串排序|| | |
+| 字符串查找(KMP查找)|| | |
+| 压缩编码|| | |
+| [动态规划](Theory/DP.md)|| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
+| 贪心算法|| | |
+| 分治算法|| | |
+| 背包算法|| | |
+| 拓扑排序|| | |
+| 递归算法|| | |
+
+### 高级算法：
+
+| 线段树|| | |
+| Minimax|| | |
+| 线性规划|| | |
+| 计算几何|| | |
+| 近似算法|| | |
+| 网络流|| | |
+| 博弈论|| | |
+| NP问题|| | | 
+ 
+ ---
+
+
+
 
 <!---
  - [数组](Theory/Array.md)
@@ -116,4 +117,22 @@
 	 - [拓扑排序](Theory/Topology.md)
 	 - [强连通性](Theory/StronglyConnected.md)
 	 - [最小生成树](Theory/MinimumSpanningTree.md)
+- [排序](Theory/Sort.md)
+ - [查找](Theory/Search.md) 
+	 - [Binary Search](Theory/Search-BST.md)
+ - [图](Theory/Graph.md)
+	 - [DFS](Theory/Graph-DFS.md)
+	 - [BFS](Theory/Graph-BFS.md) 
+	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
+	 - [最短路径](Theory/Graph-ShortestPath.md)
+		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
+		 - Bellman-Ford 算法
+		 - A* 算法
+ - [字符串](Theory/String.md)
+	 - 字符串排序
+	 - 字符串查找(KMP查找)
+	 - 压缩编码
+ - [动态规划](Theory/DP.md)
+ 	- [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
+	- [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox)
 	 --->
