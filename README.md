@@ -20,11 +20,11 @@
 | [二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 | [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
-|Java红黑树实现 |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
-|.NET红黑树实现 |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
-|SortedList(.NET) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
-|SortedSet(.NET\|Java) |SortedSet |只有Key的红黑树|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
-|TreeSet(Java) |TreeSet |只有Key的红黑树 | |
+|Java红黑树kv实现 |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
+|.NET红黑树kv实现 |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
+|SortedList(kv) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
+|.NET红黑树k实现 |SortedSet |只有Key的红黑树|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|Java.红黑树k实现 |TreeSet |只有Key的红黑树，实现SortedSet接口 | |
 |[HashMap(Java)](Theory/HashTable.md) | |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |LinkedHashMap| | | |
 |Dictionary(.NET)  | |.NET-kv |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0) |
