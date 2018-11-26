@@ -11,11 +11,11 @@
 
 |类型|英文名/类名|特点|有用链接|
 | :---|:---  |:---|:---|
-| 数组|Array | | |
-| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
-| [栈](Theory/Stack.md) |Stack| ||
-| 队列 |Queue | ||
-| [链表](Theory/LinkedList.md)|LinkedList| ||
+| 数组|Array |快速索引 | |
+| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|节省空间||
+| [栈](Theory/Stack.md) |Stack|先进后出 ||
+| 队列 |Queue |先进先出 ||
+| [链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
 | [堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
 | [二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 | [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
@@ -25,9 +25,9 @@
 |[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2) |SortedList |内部是两个数组 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
 |[Java.红黑树k列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |TreeSet |红黑树方式存储的去重key列表 | |
 |[.NET红黑树k列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
-|[哈希](Theory/HashTable.md) |Hash | ||
+|[哈希](Theory/HashTable.md) |Hash |快速查找 ||
 |[.NET哈希表](Theory/HashTable.md) |Dictionary |泛型的HashTable |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
-|[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8使用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
+|[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |[链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
 |Hash列表集合 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 | [字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
@@ -41,7 +41,49 @@
 - HashMap 当取空key时，Java返回null
 - Dictionary 当取空key时，.NET抛异常
 
+---
+### 基础算法：
 
+ - [排序](Theory/Sort.md)
+ - [查找](Theory/Search.md) 
+	 - [Binary Search](Theory/Search-BST.md)
+ - [图](Theory/Graph.md)
+	 - [DFS](Theory/Graph-DFS.md)
+	 - [BFS](Theory/Graph-BFS.md) 
+	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
+	 - [最短路径](Theory/Graph-ShortestPath.md)
+		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
+		 - Bellman-Ford 算法
+		 - A* 算法
+ - [字符串](Theory/String.md)
+	 - 字符串排序
+	 - 字符串查找(KMP查找)
+	 - 压缩编码
+ - [动态规划](Theory/DP.md)
+ 	- [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
+	- [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox)
+ - 贪心算法
+ - 分治算法
+ - 背包算法
+ - 拓扑排序
+ - 递归算法
+
+### 高级算法：
+
+ - 线段树
+ - Minimax
+ - 线性规划
+ - 计算几何
+ - 近似算法
+ - 网络流
+ - 博弈论
+ - NP问题 
+
+### Java 数据结构关系图：
+
+![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
+
+--- 
 
 <!---
  - [数组](Theory/Array.md)
@@ -75,48 +117,3 @@
 	 - [强连通性](Theory/StronglyConnected.md)
 	 - [最小生成树](Theory/MinimumSpanningTree.md)
 	 --->
----
-### 基础算法：
-
- - [排序](Theory/Sort.md)
- - [查找](Theory/Search.md) 
-	 - [Binary Search](Theory/Search-BST.md)
- - [图](Theory/Graph.md)
-	 - [DFS](Theory/Graph-DFS.md)
-	 - [BFS](Theory/Graph-BFS.md) 
-	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
-	 - [最短路径](Theory/Graph-ShortestPath.md)
-		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
-		 - Bellman-Ford 算法
-		 - A* 算法
- - [x][字符串](Theory/String.md)
-	 - 字符串排序
-	 - 字符串查找(KMP查找)
-	 - 压缩编码
- - [动态规划](Theory/DP.md)
- 	- [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
-	- [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox)
- - 贪心算法
- - 分治算法
- - 背包算法
- - 拓扑排序
- - 递归算法
-
-### 高级算法：
-
- - 线段树
- - Minimax
- - 线性规划
- - 计算几何
- - 近似算法
- - 网络流
- - 博弈论
- - NP问题 
-
-### Java 数据结构关系图：
-
-![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
-
---- 
-
-
