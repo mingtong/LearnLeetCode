@@ -1,16 +1,16 @@
 ## 算法与数据基础
 
-**参考资料**：
+### 参考资料：
 
  - [《算法》第4版中文版](https://item.jd.com/11098789.html)，[英文版官网讲解链接](http://algs4.cs.princeton.edu/home/)，Java语言描述
  - [《算法导论》中文版](https://item.jd.com/11144230.html)，英文名《Introduction to Algorithms, third edition》，伪代码描述
 
-**基础数据结构**：
+### 基础数据结构：
 
- - 数组
+ - [数组](Theory/Array.md)
  - [位运算](Theory/BitwiseOperation.md)
  - [栈](Theory/Stack.md)
- - 队列
+ - [队列](Theory/Queue.md)
  - [链表](Theory/LinkedList.md)
  - [堆 (优先队列 Priority Queue)](Theory/Sort-Heap.md)，[Java源码链接](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)
  - [二叉树 基础及题型](Theory/Tree-BinaryTree.md)
@@ -33,29 +33,29 @@
 	 - [无向图](Theory/Graph-Undirected.md)
 	 - [有向图](Theory/Graph-Directed.md)
 
-**基础算法**：
+### 基础算法：
 
- - [排序](http://blog.csdn.net/cuit/article/details/78399258)
- - [查找](http://blog.csdn.net/cuit/article/details/78420808) 
-	 - [Binary Search](http://blog.csdn.net/cuit/article/details/78420881)
- - [图](http://blog.csdn.net/cuit/article/details/78449007)
-	 - [DFS](http://blog.csdn.net/cuit/article/details/78453419)
-	 - [BFS](http://blog.csdn.net/cuit/article/details/78463322) 
-	 - [连通分量](http://blog.csdn.net/cuit/article/details/78463464)
-	 - [DisjointSet-Union-Find（并查集）](http://blog.csdn.net/cuit/article/details/78633729)
-	 - [有向图](http://blog.csdn.net/cuit/article/details/78474746)
-	 - [拓扑排序](http://blog.csdn.net/cuit/article/details/78484097)
-	 - [强连通性](http://blog.csdn.net/cuit/article/details/78484351)
-	 - [最小生成树](http://blog.csdn.net/cuit/article/details/78484777)
-	 - [最短路径](http://blog.csdn.net/cuit/article/details/78485414)
-		 - [Dijkstra 算法](http://blog.csdn.net/cuit/article/details/78494668)
+ - [排序](Theory/Sort.md)
+ - [查找](Theory/Search.md) 
+	 - [Binary Search](Theory/Search-BST.md)
+ - [图](Theory/Graph.md)
+	 - [DFS](Theory/Graph-DFS.md)
+	 - [BFS](Theory/Graph-BFS.md) 
+	 - [连通分量](Theory/Graph-ConnectedComponenet.md)
+	 - [DisjointSet-Union-Find（并查集）](Theory/Union-Find.md)
+	 - [有向图](Theory/Graph-Directed.md)
+	 - [拓扑排序](Theory/Topology.md)
+	 - [强连通性](Theory/StronglyConnected.md)
+	 - [最小生成树](Theory/MinimumSpanningTree.md)
+	 - [最短路径](Theory/Graph-ShortestPath.md)
+		 - [Dijkstra 算法](Theory/Graph-Dijkstra.md)
 		 - Bellman-Ford 算法
 		 - A* 算法
- - 字符串
+ - [字符串](Theory/String.md)
 	 - 字符串排序
 	 - 字符串查找(KMP查找)
 	 - 压缩编码
- - [动态规划](http://blog.csdn.net/cuit/article/details/78620381)
+ - [动态规划](Theory/DP.md)
  	- [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
 	- [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox)
  - 贪心算法
