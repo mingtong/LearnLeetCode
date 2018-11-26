@@ -8,7 +8,7 @@
 **基础数据结构**：
 
  - 数组
- - [位运算](Theory/BitwiseOperaption.md)
+ - [位运算](Theory/BitwiseOperation.md)
  - [栈](Theory/Stack.md)
  - 队列
  - [链表](Theory/LinkedList.md)
