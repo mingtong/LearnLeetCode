@@ -1,13 +1,20 @@
 ## LeetCode Theory
 
-### Array
-  - [基础理论](Array.md)
+### Array  
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](Array.md)|Array || |
  
 ### String
-  - [基础理论](String.md)
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](String.md)|String || |
   
 ### Bitwise Operation
-  - [常见操作](BitwiseOperation.md)
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](BitwiseOperation.md)|Bit || |
+|[常见操作](BitwiseOperation.md)|Bitwise Operation || |
 
 ### DP
 |类型|英文名/类名|特点|有用链接|
@@ -25,13 +32,19 @@
 |[链表合并](LinkedList-MergeTwoList.md)|Merge Two List || |
 
 ### SkipList
-  - [基础理论](SkipList.md)
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](SkipList.md)|Skip List || |
 
 ### Stack
-  - [基础理论](Stack.md)
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](Stack.md)|Stack || |
 
 ### Queue
-  - [基础理论](Queue.md)
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](Queue.md)|Queue || |
 
 ### Hash
 |类型|英文名/类名|特点|有用链接|
@@ -48,8 +61,20 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[二叉树](Tree-BinaryTree.md) |BinaryTree|| |
-|[二叉搜索树](Search-BST.md)|BinarySearchTree |有序的二叉树 | |
-|[红黑树](Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
+|[二叉树前序遍历](Tree-BinaryPreOrderTraversal.md) |BinaryTree PreOrder||中-左-右 |
+|[二叉树中序遍历](Tree-BinaryInOrderTraversal.md) |BinaryTree InOrder|左-中-右| |
+|[二叉树后序遍历](Tree-BinaryPostOrderTraversal.md) |BinaryTree PostOrder|左-右-中| |
+|[二叉树层次遍历](Tree-BinarLeveOrderTraversal.md) |BinaryTree LevelOrder|| |
+|[二叉树ZigZag遍历](Tree-BinaryTreeZigZagTraversal.md) |BinaryTree ZigZag Traversal|| |
+|[判断二叉树对称](Tree-BinaryTreeIsSymmetry.md) |BinaryTree Is Symmetry|| |
+|[判断二叉树相等](Tree-BinaryTreesAreSame.md.md) |BinaryTree Is Symmetry|| |
+|[二叉树反转](Tree-BinaryTreeReverse.md) |BinaryTree Reverse|| |
+|[二叉树最大高度](Tree-BinaryTreeMaxHeight.md) |BinaryTree MaxHeight|| |
+|[二叉树最小高度](Tree-BinaryTreeMinHeight.md) |BinaryTree MinHeight|| |
+|[二叉搜索树](Search-BST.md)|Binary Search Tree |有序的二叉树 | |
+|[判断二叉搜索树](Tree-BinaryTreeIsBST.md)|Is Binary Search Tree?|有序的二叉树 | |
+|[判断平衡二叉树](Tree-BinaryTreeIsBalanced.md)|Is Binary Search Tree Balanced? |有序的二叉树 | |
+|[红黑树](Tree-RBTree.md) |Red Black Tree  |平衡的二叉搜索树 | |
 |Java红黑树kv列表|TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
 |[.NET红黑树kv列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.2) |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
 |Java.红黑树k列表|TreeSet |红黑树方式存储的去重key列表 |[Java官方介绍](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |
@@ -65,6 +90,16 @@
   - SortedList 的内部是数组实现，并非红黑树
 
 ---
+
+### Trie
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[字典树](Tree-Trie.md)|Trie || |
+
+### UnionFind | Disjoint
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[并查集](UnionFind.md)|UnionFind || |
 
 ### Graph
 
