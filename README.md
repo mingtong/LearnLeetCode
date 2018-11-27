@@ -64,13 +64,14 @@
 | [Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
 | A* 算法|A* ShortestPath| | |
 | 字符串排序|| | |
-| 字符串查找(KMP查找)|| | |
-| [动态规划](Theory/DP.md)|| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
-| 贪心算法|| | |
-| 分治算法|| | |
-| 背包算法|| | |
-| 拓扑排序|| | |
-| 递归算法|| | |
+| 字符串查找|KMP| | |
+| [动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
+| 递归算法|Recursion| | |
+| 贪心算法|Greedy| | |
+| 分治算法|DevideAndConquer| | |
+| 回溯算法|Backtracking| | |
+| 拓扑排序|Topological| | |
+
 
 ### 高级算法：
 
