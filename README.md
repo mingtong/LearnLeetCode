@@ -56,15 +56,15 @@
 
 |算法|英文名|特点|有用链接|
 | :---|:---  |:---|:---|
-|压缩编码|| | |
-|线段树|| | |
+|压缩编码|Compressed Encoding| | |
+|线段树|Segment Tree| | |
 |Minimax|| | |
-|线性规划|| | |
-|计算几何|| | |
-|近似算法|| | |
-|网络流|| | |
-|博弈论|| | |
-|NP问题|| | | 
+|线性规划|Linear Programming| | |
+|计算几何|Geometry| | |
+|近似算法|Approximation Algorithm| | |
+|网络流|Network Flow| | |
+|博弈论|Game Theory| | |
+|NP问题|NP Problem| | | 
  
  ---
 
