@@ -9,7 +9,7 @@
 
 ### 解题记录
 
-[Solution](Solution/README.md)
+ - [解题](Solution/README.md)
 
 ---
 
@@ -29,7 +29,7 @@
 |[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
 |[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
 |[图](Theory/Graph.md)|Graph |||
-|[并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
+|[并查集](Theory\|UnionFind.md) |DisjointSet \| UnionFind || |
 
 
 ---
