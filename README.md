@@ -17,6 +17,7 @@
 | :---|:---  |:---|:---|
 |数组|Array |快速索引 | |
 |[链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
+|跳表|SkipList || |
 |[字符串](Theory/String.md)|String | | |
 |[栈](Theory/Stack.md) |Stack|先进后出 ||
 |队列 |Queue |先进先出 ||
@@ -24,12 +25,6 @@
 |[二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 |[二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
-|跳表|SkipList || |
-|[哈希](Theory/HashTable.md) |Hash |快速查找 ||
-|[.NET哈希表](Theory/HashTable.md) |Dictionary |泛型，HashTable非泛型 |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
-|[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
-|[链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
-|去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 |[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
 |[图](Theory/Graph.md)|Graph |||
 |[并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
