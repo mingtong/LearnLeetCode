@@ -36,7 +36,7 @@
 |去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 |[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
 |[并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
-|[跳表 |SkipList || |
+|跳表 |SkipList || |
 |[图](Theory/Graph.md)|Graph ||[微软关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
 |[邻接列表](Theory/Graph.md)|Adjacency List || |
 |[邻接矩阵](Theory/Graph.md)|Adjacency Matrix || |
