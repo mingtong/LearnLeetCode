@@ -26,7 +26,7 @@
 |[堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
 |[二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 |[二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
-|[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
+|[红黑树 ](Theory/Tree-RBTree.md) |RedBlackTree  |平衡的二叉搜索树 | |
 |[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
 |[图](Theory/Graph.md)|Graph |||
 |[并查集](Theory/UnionFind.md) |DisjointSet \| UnionFind || |
