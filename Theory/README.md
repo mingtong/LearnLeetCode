@@ -1,6 +1,27 @@
 ## LeetCode Theory
 
 ### Tree
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[二叉树](Tree-BinaryTree.md) |BinaryTree|| |
+|[二叉搜索树](Search-BST.md)|BinarySearchTree |有序的二叉树 | |
+|[红黑树 ](Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
+|[Java红黑树kv列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html) |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
+|[.NET红黑树kv列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.2) |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
+(https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) |
+|[Java.红黑树k列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |TreeSet |红黑树方式存储的去重key列表 | |
+|[.NET红黑树k列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
+|~~[SortedList(kv)~~](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2) |SortedList |内部是两个数组,使用二分查找 |[.NET官方源码]
+
+**注意**：
+- SortSet 在Java中是接口，在.NET中是具体类
+- List在 Java中是接口，在.NET中是具体类
+- TreeSet 在Java中是具体类，在.NET中是内部类
+- HashMap 当取空key时，Java返回null
+- Dictionary 当取空key时，.NET抛异常
+- SortedList 的内部是数组实现，并非红黑树
+
+---
 
 ### Graph
 
@@ -16,7 +37,7 @@
 |无权重图|Unweighted Graph || |
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
-|稠密图Theory/Graph.md|Dense Graph || |
+|稠密图|Dense Graph || |
 
 <!---
 - #### Array
