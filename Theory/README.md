@@ -20,6 +20,8 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[DP基础](DP.md)|Dynamic Programming || |
+|[TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)|Dynamic Programming || |
+|[50道练习题](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)|Dynamic Programming || |
 
 ### LinkedList
 |类型|英文名/类名|特点|有用链接|
@@ -61,7 +63,7 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[二叉树](Tree-BinaryTree.md) |BinaryTree|| |
-|[二叉树前序遍历](Tree-BinaryPreOrderTraversal.md) |BinaryTree PreOrder||中-左-右 |
+|[二叉树前序遍历](Tree-BinaryPreOrderTraversal.md) |BinaryTree PreOrder|中-左-右 ||
 |[二叉树中序遍历](Tree-BinaryInOrderTraversal.md) |BinaryTree InOrder|左-中-右| |
 |[二叉树后序遍历](Tree-BinaryPostOrderTraversal.md) |BinaryTree PostOrder|左-右-中| |
 |[二叉树层次遍历](Tree-BinarLeveOrderTraversal.md) |BinaryTree LevelOrder|| |
@@ -147,47 +149,16 @@
 
 ---
 <!---
-- #### Array
 
-- ### String
-
-- ### [LinkedList](LinkedList.md) 
-
-- ### Queue
-
-- ### Stack
-
-- ### Heap
-
-- ### Hash (HashSet HashMap)
-
-- ### Tree (Binary Tree)
-- ### Trie (Dictionary Tree)
-
-- ### Graph
 - ### Geometry
----
-- ### Sort
----
 - ### Recursion
-
-- ### DFS
-- ### BFS
-- ### DP
-  - Basic Theory
-  - [Top 50 Dynamic Programming Practice Problems](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)
-  - [Top Coder DP introduction](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
-- ### UnionFind
 - ### Greedy
 - ### Backtracking
 - ### BitOperation
 - ### Minimax
 - ### DivideAndConquer
 - ### Regex
-
 - ### Math
-- ### Shortest Path
----
 - ### Cache
 
 --->
