@@ -11,6 +11,8 @@
 
 [Solution](Solution/README.md)
 
+---
+
 ### 基础数据结构：
 
 |类型|英文名/类名|特点|有用链接|
@@ -29,11 +31,6 @@
 |[图](Theory/Graph.md)|Graph |||
 |[并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
 
-
-
-### Java 数据结构关系图：
-
-![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
 
 ---
 ### 基础算法：
