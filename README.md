@@ -34,9 +34,18 @@
 |[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |[链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
 |去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
-| [字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
-| [并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
-| [图](Theory/Graph.md)|Graph || |
+|[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
+|[并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
+|[跳表 |SkipList || |
+|[图](Theory/Graph.md)|Graph ||[微软关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
+|[邻接列表](Theory/Graph.md)|Adjacency List || |
+|[邻接矩阵](Theory/Graph.md)|Adjacency Matrix || |
+|[无向图](Theory/Graph.md)|Undirected Graph || |
+|[有向图](Theory/Graph.md)|Directed Graph || |
+|[无权重图](Theory/Graph.md)|Unweighted Graph || |
+|[有权重图](Theory/Graph.md)|Weighted Graph || |
+|[稀疏图](Theory/Graph.md)|Sparse Graph || |
+|[稠密图](Theory/Graph.md)|Dense Graph || |
 
 **注意**：
 - SortSet 在Java中是接口，在.NET中是具体类
@@ -54,22 +63,23 @@
 
 |算法|英文名|特点|有用链接|
 | :---|:---  |:---|:---|
-| [位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
-| [排序](Theory/Sort.md)|Sort | | |
-| [查找](Theory/Search.md) |Search | | |
-| 二分查找|Binary Search | | |
-| [深度优先查找](Theory/Graph-DFS.md)|DFS | | |
-| [广度优先查找](Theory/Graph-BFS.md) |BFS | | |
-| [最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
-| [Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
-| A* 算法|A* ShortestPath| | |
-| 字符串排序|| | |
-| 字符串查找|KMP| | |
-| [动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
-| 递归算法|Recursion| | |
-| 贪心算法|Greedy| | |
-| 分治算法|DevideAndConquer| | |
-| 回溯算法|Backtracking| | |
+|[位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
+|[排序](Theory/Sort.md)|Sort | | |
+|[查找](Theory/Search.md) |Search | | |
+|二分查找|Binary Search | | |
+|[深度优先查找](Theory/Graph-DFS.md)|DFS | | |
+|[广度优先查找](Theory/Graph-BFS.md) |BFS | | |
+|[最小生成树](Theory/Graph-MinimumSpanningTree.md)|Minimum Spanning Tree| | |
+|[最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
+|[Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
+|A* 算法|A* ShortestPath| | |
+|字符串排序|| | |
+|字符串查找|KMP| | |
+|[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
+|递归算法|Recursion| | |
+|贪心算法|Greedy| | |
+|分治算法|DevideAndConquer| | |
+|回溯算法|Backtracking| | |
 | 拓扑排序|Topological| | |
 
 
@@ -77,15 +87,15 @@
 
 |算法|英文名|特点|有用链接|
 | :---|:---  |:---|:---|
-| 压缩编码|| | |
-| 线段树|| | |
-| Minimax|| | |
-| 线性规划|| | |
-| 计算几何|| | |
-| 近似算法|| | |
-| 网络流|| | |
-| 博弈论|| | |
-| NP问题|| | | 
+|压缩编码|| | |
+|线段树|| | |
+|Minimax|| | |
+|线性规划|| | |
+|计算几何|| | |
+|近似算法|| | |
+|网络流|| | |
+|博弈论|| | |
+|NP问题|| | | 
  
  ---
 
