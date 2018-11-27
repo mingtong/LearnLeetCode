@@ -7,17 +7,16 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[图](Graph.md)|Graph ||[微软doc中关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
-|[图的表示-邻接列表](Graph.md)|Adjacency List || |
-|[图的表示-邻接矩阵](Graph.md)|Adjacency Matrix || |
-|[无向图](Graph.md)|Undirected Graph || |
-|[有向图](Theory/Graph.md)|Directed Graph || |
-|[连通分量](Theory/ConnectedComponent.md)|ConnectedComponent || |
-|[强连通图](Theory/StronglyConnected.md)|StronglyConnected || |
-|[有向图](Theory/Graph.md)|Directed Graph || |
-|[无权重图](Theory/Graph.md)|Unweighted Graph || |
-|[有权重图](Theory/Graph.md)|Weighted Graph || |
-|[稀疏图](Theory/Graph.md)|Sparse Graph || |
-|[稠密图](Theory/Graph.md)|Dense Graph || |
+|图的表示-邻接列表|Adjacency List || |
+|图的表示-邻接矩阵|Adjacency Matrix || |
+|[无向图](Graph-Undirected.md)| Graph || |
+|[有向图](Graph-Directed.md)| Graph || |
+|[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent || |
+|[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
+|无权重图|Unweighted Graph || |
+|有权重图|Weighted Graph || |
+|稀疏图|Sparse Graph || |
+|稠密图Theory/Graph.md|Dense Graph || |
 
 <!---
 - #### Array
