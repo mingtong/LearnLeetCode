@@ -1,5 +1,38 @@
 ## LeetCode Theory
 
+### Array
+  - [基础理论](Array.md)
+ 
+### String
+  - [基础理论](String.md)
+  
+### Bitwise Operation
+  - [常见操作](BitwiseOperation.md)
+
+### DP
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[DP基础](DP.md)|Dynamic Programming || |
+
+### LinkedList
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[链表基础](LinkedList.md)|LinkedList || |
+|[链表反转](LinkedList-Reverse.md)|LinkedList Reverse || |
+|[链表去重](LinkedList-DeleteDuplicate.md)|LinkedList DeleteDuplicate || |
+|[链表找环](LinkedList-FindCircle.md)|LinkedList FindCircle || |
+|[链表找交点](LinkedList-FindIntersection.md)|Find Intersection || |
+|[链表合并](LinkedList-MergeTwoList.md)|Merge Two List || |
+
+### SkipList
+  - [基础理论](SkipList.md)
+
+### Stack
+  - [基础理论](Stack.md)
+
+### Queue
+  - [基础理论](Queue.md)
+
 ### Hash
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
@@ -24,12 +57,12 @@
 |~~[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2)~~|~~SortedList~~ |~~内部是两个数组,使用二分查找~~ |~~[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) ~~|
 
 #### 注意：
-- SortSet 在Java中是接口，在.NET中是具体类
-- List在 Java中是接口，在.NET中是具体类
-- TreeSet 在Java中是具体类，在.NET中是内部类
-- HashMap 当取空key时，Java返回null
-- Dictionary 当取空key时，.NET抛异常
-- SortedList 的内部是数组实现，并非红黑树
+  - SortSet 在Java中是接口，在.NET中是具体类
+  - List在 Java中是接口，在.NET中是具体类
+  - TreeSet 在Java中是具体类，在.NET中是内部类
+  - HashMap 当取空key时，Java返回null
+  - Dictionary 当取空key时，.NET抛异常
+  - SortedList 的内部是数组实现，并非红黑树
 
 ---
 
@@ -48,7 +81,30 @@
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
+|[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
+|[深度优先搜索](Graph-DFS.md)|Depth First Search || |
+|[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
+|[迪杰克斯拉](Graph-Dijkstra.md)|Dijkstra || |
+|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
+|[拓扑排序](Graph-Topology.md)|Topology || |
+
 ---
+
+### Search
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[查找](Search.md)|Search || |
+|[二分查找](Search-BinarySearch.md)| Binary Search|| |
+
+### Sort
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[排序](Sort.md)|Sort || |
+|[选择排序](Search-Selection.md)| Selection Sort|| |
+|[插入排序](Sort-Insertion.md)|Insertion Sort || |
+|[归并排序](Sort-Merge.md)| Merge Sort || |
+|[快速排序](Sort-Quick.md)| Quick Sort || |
+|[堆排序](Sort-Heap.md)| Heap Sort || |
 
 ### Java 数据结构关系图：
 
