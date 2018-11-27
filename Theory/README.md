@@ -1,16 +1,17 @@
 ## LeetCode Theory
 
-### Array  
+### Array Manipulation
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[基础理论](Array.md)|Array || |
  
-### String
+### String Manipulation
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[基础理论](String.md)|String || |
-  
-### Bitwise Operation
+|字符串查找|KMP| | |
+
+### Bitwise Manipulation
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[基础理论](BitwiseOperation.md)|Bit || |
@@ -38,15 +39,11 @@
 |:---|:---  |:---|:---|
 |[基础理论](SkipList.md)|Skip List || |
 
-### Stack
+### Stack & Queue
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[基础理论](Stack.md)|Stack || |
-
-### Queue
-|类型|英文名/类名|特点|有用链接|
-|:---|:---  |:---|:---|
-|[基础理论](Queue.md)|Queue || |
+|[栈基础理论](Stack.md)|Stack || |
+|[队列基础理论](Queue.md)|Queue || |
 
 ### Hash
 |类型|英文名/类名|特点|有用链接|
@@ -118,10 +115,15 @@
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
+
+---
+
+### 最短路径
 |[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
 |[深度优先搜索](Graph-DFS.md)|Depth First Search || |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
-|[迪杰克斯拉](Graph-Dijkstra.md)|Dijkstra || |
+|A*|A* ShortestPath || |
+|[Dijkstra](Graph-Dijkstra.md)|Dijkstra || |
 |[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
 |[拓扑排序](Graph-Topology.md)|Topology || |
 
