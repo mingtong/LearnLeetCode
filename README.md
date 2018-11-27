@@ -15,14 +15,14 @@
 
 |类型|英文名/类名|特点|有用链接|
 | :---|:---  |:---|:---|
-| 数组|Array |快速索引 | |
-| [字符串](Theory/String.md)|String | | |
-| [栈](Theory/Stack.md) |Stack|先进后出 ||
-| 队列 |Queue |先进先出 ||
-| [链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
-| [堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
-| [二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
-| [二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
+|数组|Array |快速索引 | |
+|[链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
+|[字符串](Theory/String.md)|String | | |
+|[栈](Theory/Stack.md) |Stack|先进后出 ||
+|队列 |Queue |先进先出 ||
+|[堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
+|[二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
+|[二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树 ](Theory/Tree-RBTree.md) |RBTree  |平衡的二叉搜索树 | |
 |[Java红黑树kv列表](https://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html) |TreeMap |Java实现  ||[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/TreeMap.java#TreeMap) |
 |[.NET红黑树kv列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.2) |SortedDictionary |.NET实现，内部用TreeSet存储 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs) |
@@ -41,6 +41,9 @@
 |[邻接列表](Theory/Graph.md)|Adjacency List || |
 |[邻接矩阵](Theory/Graph.md)|Adjacency Matrix || |
 |[无向图](Theory/Graph.md)|Undirected Graph || |
+|[有向图](Theory/Graph.md)|Directed Graph || |
+|[连通分量](Theory/ConnectedComponent.md)|ConnectedComponent || |
+|[强连通图](Theory/StronglyConnected.md)|StronglyConnected || |
 |[有向图](Theory/Graph.md)|Directed Graph || |
 |[无权重图](Theory/Graph.md)|Unweighted Graph || |
 |[有权重图](Theory/Graph.md)|Weighted Graph || |
@@ -80,7 +83,9 @@
 |贪心算法|Greedy| | |
 |分治算法|DevideAndConquer| | |
 |回溯算法|Backtracking| | |
-| 拓扑排序|Topological| | |
+|[拓扑排序](Graph-Topology.md)|Topological| | |
+
+|[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
 
 
 ### 高级算法：
