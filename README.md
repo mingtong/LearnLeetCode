@@ -17,12 +17,12 @@
 
 |类型|英文名/类名|特点|有用链接|
 | :---|:---  |:---|:---|
-|数组|Array |快速索引 | |
+|[数组](Theory/Array.md)|Array |快速索引 | |
 |[链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
-|跳表|SkipList || |
+|[跳表](Theory/SkipList.md)|SkipList || |
 |[字符串](Theory/String.md)|String | | |
 |[栈](Theory/Stack.md) |Stack|先进后出 ||
-|队列 |Queue |先进先出 ||
+|[队列](Theory/Queue.md)|Queue |先进先出 ||
 |[堆/优先队列](Theory/Sort-Heap.md) |Heap/PriorityQueue| |[Java官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/PriorityQueue.java#PriorityQueue)|
 |[二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 |[二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
@@ -40,16 +40,16 @@
 |[位运算](Theory/BitwiseOperation.md) |BitwiseOperation|||
 |[排序](Theory/Sort.md)|Sort | | |
 |[查找](Theory/Search.md) |Search | | |
-|二分查找|Binary Search | | |
+|[二分查找](Theory/Search-BinarySearch.md)|Binary Search | | |
 |[深度优先查找](Theory/Graph-DFS.md)|DFS | | |
 |[广度优先查找](Theory/Graph-BFS.md) |BFS | | |
 |[最小生成树](Theory/Graph-MinimumSpanningTree.md)|Minimum Spanning Tree| | |
 |[最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
 |[Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
 |A* 算法|A* ShortestPath| | |
+|[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
 |字符串排序|| | |
 |字符串查找|KMP| | |
-|[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
 |递归算法|Recursion| | |
 |贪心算法|Greedy| | |
 |分治算法|DevideAndConquer| | |
