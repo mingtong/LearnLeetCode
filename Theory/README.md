@@ -9,6 +9,8 @@
 |[Java链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
 |去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 
+---
+
 ### Tree
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
@@ -46,7 +48,13 @@
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
+---
 
+### Java 数据结构关系图：
+
+![Java 数据结构关系图](SolutionByTag/img/java-ds.png)
+
+---
 <!---
 - #### Array
 
