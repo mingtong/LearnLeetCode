@@ -43,20 +43,14 @@
 |[二分查找](Theory/Search-BinarySearch.md)|Binary Search | | |
 |[深度优先查找](Theory/Graph-DFS.md)|DFS | | |
 |[广度优先查找](Theory/Graph-BFS.md) |BFS | | |
-|[最小生成树](Theory/Graph-MinimumSpanningTree.md)|Minimum Spanning Tree| | |
 |[最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
-|[Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
-|A* 算法|A* ShortestPath| | |
 |[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
-|字符串排序|| | |
-|字符串查找|KMP| | |
+|字符串操作|| | |
 |递归算法|Recursion| | |
 |贪心算法|Greedy| | |
 |分治算法|DevideAndConquer| | |
 |回溯算法|Backtracking| | |
-|[拓扑排序](Graph-Topology.md)|Topological| | |
 |[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
-
 
 ### 高级算法：
 
