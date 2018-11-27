@@ -33,7 +33,7 @@
 |[.NET哈希表](Theory/HashTable.md) |Dictionary |泛型的HashTable |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
 |[Java哈希表](Theory/HashTable.md) |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
 |[链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
-|Hash列表集合 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
+|去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
 | [字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
 | [并查集](Theory\UnionFind.md) |DisjointSet \| UnionFind || |
 | [图](Theory/Graph.md)|Graph || |
@@ -62,11 +62,9 @@
 | [广度优先查找](Theory/Graph-BFS.md) |BFS | | |
 | [最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
 | [Dijkstra 算法](Theory/Graph-Dijkstra.md)|ShortestPath| | |
-| Bellman-Ford 算法|Bellman-Ford ShortestPath| | |
 | A* 算法|A* ShortestPath| | |
 | 字符串排序|| | |
 | 字符串查找(KMP查找)|| | |
-| 压缩编码|| | |
 | [动态规划](Theory/DP.md)|| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
 | 贪心算法|| | |
 | 分治算法|| | |
@@ -78,6 +76,7 @@
 
 |算法|英文名|特点|有用链接|
 | :---|:---  |:---|:---|
+| 压缩编码|| | |
 | 线段树|| | |
 | Minimax|| | |
 | 线性规划|| | |
