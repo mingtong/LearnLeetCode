@@ -27,7 +27,7 @@
 |[二叉树](Theory/Tree-BinaryTree.md) |BinaryTree || |
 |[二叉搜索树](Theory/Search-BST.md)|BinarySearchTree |有序的二叉树 | |
 |[红黑树 ](Theory/Tree-RBTree.md) |RedBlackTree  |平衡的二叉搜索树 | |
-|[字典树\|单词查找树](Theory/Tree-Trie.md) |Trie | | |
+|[字典树](Theory/Tree-Trie.md) |Trie |也叫 单词查找树 | |
 |[图](Theory/Graph.md)|Graph |||
 |[并查集](Theory/UnionFind.md) |DisjointSet \| UnionFind || |
 
