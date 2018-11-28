@@ -1,6 +1,6 @@
 ## DFS
 
-**DFS**：Depth First Search，深度优先搜索
+**DFS**：Depth First Search，深度优先搜索，基于**Tremaux**树。
 
 走迷宫的过程：
 1. 选择一条没有标记过的通道，在走过的路上铺一条绳子。
