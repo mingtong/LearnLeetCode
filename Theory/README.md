@@ -123,6 +123,8 @@
 |[并查集](UnionFind.md)|UnionFind || |
 
 ### 最短路径
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
 |[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
 |[深度优先搜索](Graph-DFS.md)|Depth First Search || |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
