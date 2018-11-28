@@ -105,7 +105,7 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[图](Graph.md)|Graph ||[微软doc中关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
-|图的表示-邻接列表|Adjacency List |节省空间，用于稀疏图| |
+|[图的表示-邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
 |图的表示-邻接矩阵|Adjacency Matrix |快速查找，用于稠密图| |
 |[无向图](Graph-Undirected.md)| Graph || |
 |[有向图](Graph-Directed.md)| Graph || |
