@@ -9,7 +9,9 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[基础理论](String.md)|String || |
+|[字典树](Tree-Trie.md)|Trie || |
 |字符串查找|KMP| | |
+|正则表达式|Regex| | |
 
 ### Bitwise Manipulation
 |类型|英文名/类名|特点|有用链接|
@@ -45,16 +47,13 @@
 |[栈基础理论](Stack.md)|Stack || |
 |[队列基础理论](Queue.md)|Queue || |
 
-### Hash
+---
+
+### Search
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[哈希](HashTable.md) |Hash |快速查找 ||
-|.NET哈希表 |Dictionary |泛型，HashTable非泛型 |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
-|Java哈希表 |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
-|[Java链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
-|去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
-
----
+|[查找](Search.md)|Search || |
+|[二分查找](Search-BinarySearch.md)| Binary Search|| |
 
 ### Tree
 |类型|英文名/类名|特点|有用链接|
@@ -90,10 +89,16 @@
 
 ---
 
-### Trie
+### Hash
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[字典树](Tree-Trie.md)|Trie || |
+|[哈希](HashTable.md) |Hash |快速查找 ||
+|.NET哈希表 |Dictionary |泛型，HashTable非泛型 |[.NET官方源码](http://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs)|
+|Java哈希表 |HashMap |链接长度大于8时改用红黑树 |[JAVA官方源码](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/HashMap.java#HashMap) |
+|[Java链式Hash表](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)|LinkedHashMap | | |
+|去重Hash数据集 |HashSet |hash方式存储的去重key列表 |[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/HashSet.cs) |
+
+---
 
 ### UnionFind | Disjoint
 |类型|英文名/类名|特点|有用链接|
@@ -105,8 +110,8 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[图](Graph.md)|Graph ||[微软doc中关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
-|图的表示-邻接列表|Adjacency List || |
-|图的表示-邻接矩阵|Adjacency Matrix || |
+|图的表示-邻接列表|Adjacency List |节省空间，用于稀疏图| |
+|图的表示-邻接矩阵|Adjacency Matrix |快速查找，用于稠密图| |
 |[无向图](Graph-Undirected.md)| Graph || |
 |[有向图](Graph-Directed.md)| Graph || |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent || |
@@ -115,25 +120,18 @@
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
-
----
+|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
 
 ### 最短路径
 |[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
 |[深度优先搜索](Graph-DFS.md)|Depth First Search || |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
-|A*|A* ShortestPath || |
 |[Dijkstra](Graph-Dijkstra.md)|Dijkstra || |
-|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
+|A*|A* ShortestPath || |
 |[拓扑排序](Graph-Topology.md)|Topology || |
 
 ---
 
-### Search
-|类型|英文名/类名|特点|有用链接|
-|:---|:---  |:---|:---|
-|[查找](Search.md)|Search || |
-|[二分查找](Search-BinarySearch.md)| Binary Search|| |
 
 ### Sort
 |类型|英文名/类名|特点|有用链接|
