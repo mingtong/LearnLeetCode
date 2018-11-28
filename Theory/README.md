@@ -100,11 +100,6 @@
 
 ---
 
-### UnionFind | Disjoint
-|类型|英文名/类名|特点|有用链接|
-|:---|:---  |:---|:---|
-|[并查集](UnionFind.md)|UnionFind || |
-
 ### Graph
 
 |类型|英文名/类名|特点|有用链接|
@@ -121,6 +116,11 @@
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
 |[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
+
+### UnionFind | Disjoint
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[并查集](UnionFind.md)|UnionFind || |
 
 ### 最短路径
 |[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
