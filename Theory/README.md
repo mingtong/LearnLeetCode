@@ -105,8 +105,8 @@
 |[深度优先搜索](Graph-DFS.md)|Depth First Search |隐式使用Stack递归| |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
-|[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
 |[有向图](Graph-Directed.md)| Graph || |
+|[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
 |无权重图|Unweighted Graph || |
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
