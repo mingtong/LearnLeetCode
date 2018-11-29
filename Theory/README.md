@@ -108,11 +108,12 @@
 |[有向图](Graph-Directed.md)| Graph || |
 |[拓扑排序](Graph-Topology.md)|Topology |将所有的顶点排序| |
 |[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中两点互相可达| |
-|无权重图|Unweighted Graph || |
-|有权重图|Weighted Graph || |
+|无权重图|Unweighted Graph |边无权值| |
+|有权重图|Weighted Graph |边有权值| |
+|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
-|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
+
 
 ### UnionFind | Disjoint
 |类型|英文名/类名|特点|有用链接|
