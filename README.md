@@ -45,12 +45,8 @@
 |[广度优先查找](Theory/Graph-BFS.md) |BFS | | |
 |[最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
 |[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
-|字符串操作|| | |
-|递归算法|Recursion| | |
-|贪心算法|Greedy| | |
-|分治算法|DevideAndConquer| | |
-|回溯算法|Backtracking| | |
-|[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
+|[字符串操作](Theory/String.md)|| | |
+
 
 ### 高级算法：
 
