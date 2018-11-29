@@ -5,6 +5,7 @@
 - #### Recursive Case，递归继续的条件。
 - #### Base Case, 递归终止的条件，可以有多个。
 
+比如“求前N个整数之合” 用JavaScript代码
 ```
 function recsum(x) {
     if (x===1) {  //base case
@@ -109,10 +110,10 @@ tailrecsum(0, 15)
 
 
 ### 参考：
- > Tail Recursion https://stackoverflow.com/questions/33923/what-is-tail-recursion
- > Recursion Wiki https://en.wikipedia.org/wiki/Recursion_(computer_science)
- > generative-recursion https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion
- > Stack and Recursion https://web.archive.org/web/20120227170843/http://cs.saddleback.edu/rwatkins/CS2B/Lab%20Exercises/Stacks%20and%20Recursion%20Lab.pdf
+ > [Tail Recursion](https://stackoverflow.com/questions/33923/what-is-tail-recursion)
+ > [Recursion Wiki](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+ > [generative-recursion](https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion)
+ > [Stack and Recursion]( https://web.archive.org/web/20120227170843/http://cs.saddleback.edu/rwatkins/CS2B/Lab%20Exercises/Stacks%20and%20Recursion%20Lab.pdf)
  
 
 
