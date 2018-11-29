@@ -106,8 +106,8 @@
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
 |[有向图](Graph-Directed.md)| Graph || |
-|[拓扑排序](Graph-Topology.md)|Topology || |
-|[强连通分量](Graph-StronglyConnected.md)|StronglyConnected || |
+|[拓扑排序](Graph-Topology.md)|Topology |将所有的顶点排序| |
+|[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中两点互相可达| |
 |无权重图|Unweighted Graph || |
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
