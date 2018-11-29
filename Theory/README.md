@@ -107,7 +107,7 @@
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
 |[有向图](Graph-Directed.md)| Graph || |
 |[拓扑排序](Graph-Topology.md)|Topology || |
-|[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
+|[强连通分量](Graph-StronglyConnected.md)|StronglyConnected || |
 |无权重图|Unweighted Graph || |
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
