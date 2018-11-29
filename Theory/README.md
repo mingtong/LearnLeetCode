@@ -102,9 +102,9 @@
 |[图的表示-邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
 |图的表示-邻接矩阵|Adjacency Matrix |快速查找，用于稠密图| |
 |[无向图](Graph-Undirected.md)| Graph || |
-|[深度优先搜索](Graph-DFS.md)|Depth First Search || |
-|[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
-|[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent || |
+|[深度优先搜索](Graph-DFS.md)|Depth First Search |隐式使用Stack递归| |
+|[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
+|[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
 |[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
 |[有向图](Graph-Directed.md)| Graph || |
 |无权重图|Unweighted Graph || |
