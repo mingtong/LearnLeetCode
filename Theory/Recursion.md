@@ -1,6 +1,4 @@
-## 递归
-
-> **递归**，Recursion
+## 递归 Recursion
 
 - #### Recursive Case，递归继续的条件。
 - #### Base Case, 递归终止的条件，可以有多个。
