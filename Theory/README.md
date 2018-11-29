@@ -102,9 +102,11 @@
 |[图的表示-邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
 |图的表示-邻接矩阵|Adjacency Matrix |快速查找，用于稠密图| |
 |[无向图](Graph-Undirected.md)| Graph || |
-|[有向图](Graph-Directed.md)| Graph || |
+|[深度优先搜索](Graph-DFS.md)|Depth First Search || |
+|[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent || |
 |[强连通图](Graph-StronglyConnected.md)|StronglyConnected || |
+|[有向图](Graph-Directed.md)| Graph || |
 |无权重图|Unweighted Graph || |
 |有权重图|Weighted Graph || |
 |稀疏图|Sparse Graph || |
@@ -120,8 +122,6 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
-|[深度优先搜索](Graph-DFS.md)|Depth First Search || |
-|[广度优先搜索](Graph-BFS.md)|Breadth First Search || |
 |[Dijkstra](Graph-Dijkstra.md)|Dijkstra || |
 |A*|A* ShortestPath || |
 |[拓扑排序](Graph-Topology.md)|Topology || |
