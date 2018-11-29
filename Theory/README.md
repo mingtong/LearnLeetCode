@@ -145,6 +145,16 @@
 |[快速排序](Sort-Quick.md)| Quick Sort || |
 |[堆排序](Sort-Heap.md)| Heap Sort || |
 
+---
+
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|递归算法|Recursion| | |
+|贪心算法|Greedy| | |
+|分治算法|DevideAndConquer| | |
+|回溯算法|Backtracking| | |
+|[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
+
 ### Java 数据结构关系图：
 
 ![Java 数据结构关系图](../SolutionByTag/img/java-ds.png)
