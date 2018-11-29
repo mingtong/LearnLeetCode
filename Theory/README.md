@@ -151,7 +151,7 @@
 ### Method
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|递归算法|Recursion| | |
+|[递归算法](Recursion.md)|Recursion| | |
 
 |贪心算法|Greedy| | |
 |分治算法|DevideAndConquer| | |
