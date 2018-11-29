@@ -148,11 +148,10 @@
 |[TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)|Dynamic Programming || |
 |[50道练习题](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)|Dynamic Programming || |
 
-### Method
+### Algorithm
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[递归算法](Recursion.md)|Recursion| | |
-
 |贪心算法|Greedy| | |
 |分治算法|DevideAndConquer| | |
 |回溯算法|Backtracking| | |
