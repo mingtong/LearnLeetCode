@@ -23,7 +23,7 @@
 使用 DFS 查找有向图 G 中的反向图 G<sup>R</sup>，得到所有顶点的反向后序，再次使用 DFS 处理有向图 G（Kosaraju算法）。
 构造函数的每一次递归调用所标记的顶点都在同一个强连通分量中。
 
-Kosaraju 算法的实现：
+**Kosaraju 算法**的实现：
 ``` Java
 public class KosarajuSCC {
     private boolean[] marked; // reached vertices
