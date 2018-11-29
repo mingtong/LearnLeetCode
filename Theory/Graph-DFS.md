@@ -53,9 +53,11 @@ class DFS
 ![](https://img-blog.csdn.net/20171106225629423?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 #### DFS解决的问题：
-- **连通性**：给定一幅图，可以用 DFS 算法回答“两个给定的顶点是否连通”，“图中有多少连通子图”等问题。 
+- **连通性（分量）**：给定一幅图，可以用 DFS 算法回答“两个给定的顶点是否连通”，“图中有多少连通子图”等问题。 
 - **单点路径**：给定一幅图，给出其中一个顶点 s，是否有 顶点 s 到 顶点 v 的一条路径，如果有，找出这条路径。
 - **路径查找**：下面的代码实现了路径的查找，主要是扩展了 DFS 的代码，添加了一个变量 edgeTo[] 整型数组，作为用于搜索的绳子。这个数组可以找到每个与顶点 s 连通的顶点再回到顶点 s 的路径，可以记住每个顶点到起点的路径，而不是记录当前顶点到起点的路径。
+- **是无环图？**：
+- **是二分图？**：任意两个相连接的顶点不同色。
 
 路径查找的图解示例：
 ![](https://img-blog.csdn.net/20171106225447492?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY3VpdA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
