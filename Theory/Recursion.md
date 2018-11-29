@@ -109,8 +109,9 @@ tailrecsum(0, 15)
 
 
 ### 参考：
- - > https://stackoverflow.com/questions/33923/what-is-tail-recursion
- - > https://en.wikipedia.org/wiki/Recursion_(computer_science)
+ > https://stackoverflow.com/questions/33923/what-is-tail-recursion
+ > https://en.wikipedia.org/wiki/Recursion_(computer_science)
+ > https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion
  
 
 
