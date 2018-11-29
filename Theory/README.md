@@ -153,7 +153,7 @@
 |:---|:---  |:---|:---|
 |[递归算法](Recursion.md)|Recursion| | |
 |贪心算法|Greedy| | |
-|分治算法|DevideAndConquer| | |
+|分治算法|DevideAndConquer|拆分问题，分而治之 | |
 |回溯算法|Backtracking| | |
 |[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
 
