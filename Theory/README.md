@@ -1,6 +1,6 @@
 ## LeetCode Theory
 
-> ### Array Manipulation
+### Array Manipulation
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[基础理论](Array.md)|Array || |
