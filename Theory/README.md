@@ -101,8 +101,8 @@
 |[图](Graph.md)|Graph ||[微软doc中关于图的介绍](https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)) |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
-|邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
-|邻接矩阵|Adjacency Matrix |快速查找，用于稠密图| |
+|[邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
+|[邻接矩阵](Graph-AdjacencyMatrix.md)|Adjacency Matrix |快速查找，用于稠密图| |
 |[无向图](Graph-Undirected.md)| Graph || |
 |[深度优先搜索](Graph-DFS.md)|Depth First Search |隐式使用Stack递归| |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
