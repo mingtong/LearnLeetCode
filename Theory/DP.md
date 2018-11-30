@@ -82,11 +82,13 @@ int Fibonacci(int n)
 
 
 #### 参考资料
-> - http://en.wikipedia.org/wiki/Dynamic_programming
-> - https://stackoverflow.com/questions/1065433/what-is-dynamic-programming 
-> - http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf 
-> - http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static 
-> - http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf
+> - [wiki](http://en.wikipedia.org/wiki/Dynamic_programming)
+> - [StackOverflow](https://stackoverflow.com/questions/1065433/what-is-dynamic-programming)
+> - [berkeley](http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf) 
+> - [topcoder](http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static)
+> - [sysu](http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf)
+> - [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
+> - [CSDN-HankingHu](https://blog.csdn.net/u013309870/article/details/75193592)
 
 #### 练习题
 
