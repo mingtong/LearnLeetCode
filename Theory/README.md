@@ -105,12 +105,12 @@
 |[深度优先搜索](Graph-DFS.md)|Depth First Search |隐式使用Stack递归| |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
-|[有向图](Graph-Directed.md)| Graph || |
 |[拓扑排序](Graph-Topology.md)|Topology |将所有的顶点排序| |
 |[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中两点互相可达| |
 |无权重图|Unweighted Graph |边无权值| |
 |有权重图|Weighted Graph |边有权值| |
-|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree || |
+|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree |总权最小的生成树（无回路的子无向图）| |
+|[有向图](Graph-Directed.md)| Graph || |
 |稀疏图|Sparse Graph || |
 |稠密图|Dense Graph || |
 
@@ -123,8 +123,9 @@
 ### 最短路径
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[最短路径](Graph-ShortestPath.md	)|Shortest Path || |
-|[Dijkstra](Graph-Dijkstra.md)|Dijkstra || |
+|[最短路径](Graph-ShortestPath.md	)|Shortest Path |有向图中两点之间最小权重路径| |
+|[Dijkstra](Graph-Dijkstra.md)|Dijkstra |边的权重非负| |
+|Bellman-Ford|Bellman-Ford |边的权重可以是负值，图可以有环| |
 |A*|A* ShortestPath || |
 
 ---
