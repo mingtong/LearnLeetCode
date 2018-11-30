@@ -86,11 +86,13 @@ int Fibonacci(int n)
 > - [StackOverflow](https://stackoverflow.com/questions/1065433/what-is-dynamic-programming)
 > - [berkeley](http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf) 
 > - [topcoder](http://www.topcoder.com/tc?d1=tutorials&d2=dynProg&module=Static)
+> - |[TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 > - [sysu](http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf)
 > - [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
 > - [CSDN-HankingHu](https://blog.csdn.net/u013309870/article/details/75193592)
 
 #### 练习题
 
-> - https://people.cs.clemson.edu/~bcdean/dp_practice/ 
-> - https://www.hackerrank.com/domains/algorithms/dynamic-programming
+> - [clemson](https://people.cs.clemson.edu/~bcdean/dp_practice/) 
+> - [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming)
+> - [50道DP练习题](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)
