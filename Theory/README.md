@@ -146,7 +146,7 @@
 |[TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)|Dynamic Programming || |
 |[50道DP练习题](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)|Dynamic Programming || |
 |[递归算法](Recursion.md)|Recursion| | |
-|贪心算法|Greedy| | |
+|[贪心算法](Greedy.md)|Greedy|局部最优解| |
 |[分治算法](DeviceAndConquer.md)|DevideAndConquer|拆分问题，分而治之 | |
 |回溯算法|Backtracking| | |
 |[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
