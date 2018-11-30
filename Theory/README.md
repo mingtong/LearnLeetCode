@@ -103,7 +103,7 @@
 |稠密图|Dense Graph || |
 |[邻接列表](Graph-AdjacencyList.md)|Adjacency List |节省空间，用于稀疏图| |
 |[邻接矩阵](Graph-AdjacencyMatrix.md)|Adjacency Matrix |快速查找，用于稠密图| |
-|[无向图](Graph-Undirected.md)| Graph || |
+|[无向图](Graph-Undirected.md)| Graph |两点之间的边是平等的| |
 |[深度优先搜索](Graph-DFS.md)|Depth First Search |隐式使用Stack递归| |
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
@@ -112,8 +112,8 @@
 |无权重图|Unweighted Graph |边无权值| |
 |有权重图|Weighted Graph |边有权值| |
 |[最小生成树](Graph-MinimumSpanningTree.md)|MST |加权无向图中总权最小连接所有顶点| |
-|[有向图](Graph-Directed.md)| Directed Graph || |
-|加权有向图|Weighted directed Graph || |
+|[有向图](Graph-Directed.md)| Directed Graph |边有方向| |
+|加权有向图|Weighted directed Graph |边有方向，且有权值| |
 |[最短路径](Graph-ShortestPath.md	)|SPT |加权有向图中总权最小的方式连接两个顶点| |
 |[Dijkstra](Graph-Dijkstra.md)|Dijkstra |单起点，边的权重非负| |
 |Bellman-Ford|Bellman-Ford |基于队列，边的权重可以是负值，图可以有环| |
