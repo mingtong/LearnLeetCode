@@ -143,12 +143,14 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[DP基础](DP.md)|Dynamic Programming || |
-|[TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)|Dynamic Programming || |
-|[50道DP练习题](https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-4208fed71aa3)|Dynamic Programming || |
 |[递归算法](Recursion.md)|Recursion| | |
 |[贪心算法](Greedy.md)|Greedy|局部最优解| |
 |[分治算法](DeviceAndConquer.md)|DevideAndConquer|拆分问题，分而治之 | |
 |回溯算法|Backtracking| | |
+
+### Misc
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
 |[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
 
 ### Java 数据结构关系图：
