@@ -6,7 +6,8 @@ DP: 即 **动态规划（dynamic programming）**，是用过去的知识解决�
 通常把子问题的结果存放在一个一维或二维数组中，然后在需要时查询。
 
 动态规划还可以用在递归问题中，以避免重复地计算同一个子问题。 
-比如 Fibonacci 数列问题，F<sub>n</sub> = F<sub>n-1</sub>+ F<sub>n-2</sub> 而 F<sub>0</sub> = 0， F<sub>1</sub>= 1。 
+比如 Fibonacci 数列问题，F<sub>n</sub> = F<sub>n-1</sub>+ F<sub>n-2</sub> 
+而 F<sub>0</sub> = 0， F<sub>1</sub>= 1。 
 
 #### 用递归来解决的话：
 
