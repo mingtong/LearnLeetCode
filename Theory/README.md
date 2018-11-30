@@ -1,5 +1,11 @@
 ## LeetCode Theory
 
+### Bitwise Manipulation
+|类型|英文名/类名|特点|有用链接|
+|:---|:---  |:---|:---|
+|[基础理论](BitwiseOperation.md)|Bit || |
+|[常见操作](BitwiseOperation.md)|Bitwise Operation || |
+
 ### Array Manipulation
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
@@ -13,13 +19,6 @@
 |字符串查找|KMP| | |
 |正则表达式|Regex| | |
 
-### Bitwise Manipulation
-|类型|英文名/类名|特点|有用链接|
-|:---|:---  |:---|:---|
-|[基础理论](BitwiseOperation.md)|Bit || |
-|[常见操作](BitwiseOperation.md)|Bitwise Operation || |
-
-
 ### LinkedList
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
@@ -30,10 +29,6 @@
 |[链表找交点](LinkedList-FindIntersection.md)|Find Intersection || |
 |[链表合并](LinkedList-MergeTwoList.md)|Merge Two List || |
 
-### SkipList
-|类型|英文名/类名|特点|有用链接|
-|:---|:---  |:---|:---|
-|[基础理论](SkipList.md)|Skip List || |
 
 ### Stack & Queue
 |类型|英文名/类名|特点|有用链接|
@@ -72,8 +67,10 @@
 |Java.红黑树k列表|TreeSet |红黑树方式存储的去重key列表 |[Java官方介绍](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |
 |[.NET红黑树k列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
 |~~[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2)~~|~~SortedList~~ |~~内部是两个数组,使用二分查找~~ |~~[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) ~~|
+|B树 |B Tree|| |
+|B+树 |B+ Tree|| |
 
-#### 注意：
+**注意**：
   - SortSet 在Java中是接口，在.NET中是具体类
   - List在 Java中是接口，在.NET中是具体类
   - TreeSet 在Java中是具体类，在.NET中是内部类
@@ -119,10 +116,11 @@
 |Bellman-Ford|Bellman-Ford |基于队列，边的权重可以是负值，图可以有环| |
 |A*|A* ShortestPath || |
 
-### UnionFind | Disjoint
+### Misc
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[并查集](UnionFind.md)|UnionFind || |
+|[并查集](UnionFind.md)|UnionFind \| Disjoint || |
+|[跳表](SkipList.md)|Skip List || |
 
 ---
 
