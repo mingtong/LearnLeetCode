@@ -108,7 +108,7 @@
 |[广度优先搜索](Graph-BFS.md)|Breadth First Search |显示使用Queue迭代| |
 |[连通分量](Graph-ConnectedComponent.md)|ConnectedComponent |图中两个连通点之间的路径| |
 |[拓扑排序](Graph-Topology.md)|Topology |将所有的顶点排序| |
-|[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中两点互相可达| |
+|[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中任意两点互相可达| |
 |无权重图|Unweighted Graph |边无权值| |
 |有权重图|Weighted Graph |边有权值| |
 |[最小生成树](Graph-MinimumSpanningTree.md)|MST |加权无向图中总权最小连接所有顶点| |
