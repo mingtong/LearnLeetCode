@@ -7,6 +7,11 @@
 
 ---
 
+### 理论介绍
+ - [理论知识点总结](Theory/README.md)
+
+---
+
 ### 解题记录
 
  - [解题](Solution/README.md)
