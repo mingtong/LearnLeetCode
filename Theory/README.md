@@ -111,10 +111,10 @@
 |[强连通分量](Graph-StronglyConnected.md)|StronglyConnected |图中两点互相可达| |
 |无权重图|Unweighted Graph |边无权值| |
 |有权重图|Weighted Graph |边有权值| |
-|[最小生成树](Graph-MinimumSpanningTree.md)|Minimum Spanning Tree |加权无向图中总权最小连接所有顶点）| |
+|[最小生成树](Graph-MinimumSpanningTree.md)|MST |加权无向图中总权最小连接所有顶点）| |
 |[有向图](Graph-Directed.md)| Directed Graph || |
 |加权有向图|Weighted directed Graph || |
-|[最短路径](Graph-ShortestPath.md	)|Shortest Path |加权有向图中总权最小的方式连接两个顶点| |
+|[最短路径](Graph-ShortestPath.md	)|SPT |加权有向图中总权最小的方式连接两个顶点| |
 |[Dijkstra](Graph-Dijkstra.md)|Dijkstra |单起点，边的权重非负| |
 |Bellman-Ford|Bellman-Ford |基于队列，边的权重可以是负值，图可以有环| |
 |A*|A* ShortestPath || |
