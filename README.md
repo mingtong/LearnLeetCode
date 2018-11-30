@@ -49,7 +49,7 @@
 |[深度优先查找](Theory/Graph-DFS.md)|DFS | | |
 |[广度优先查找](Theory/Graph-BFS.md) |BFS | | |
 |[最短路径](Theory/Graph-ShortestPath.md)|ShortestPath| | |
-|[动态规划](Theory/DP.md)|DP| |[Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming), [菜鸟教程](https://blog.csdn.net/u013309870/article/details/75193592#commentBox) |
+|[动态规划](Theory/DP.md)|DP| | |
 |[字符串操作](Theory/String.md)|String | | |
 
 ---
