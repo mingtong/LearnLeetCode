@@ -28,12 +28,15 @@ int Fibonacci(int n)
 
 #### 而用动态规划的思路的话，有两种方式：
 
+按照传统思路
+![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg?bust=189)
+
 - 从上到下 - 也就是备忘录模式(Memoization)
 ``` C#
 int[] cache = new int[n];
 int Fibonacci(int n)
 {
-    if(n < 1)
+    if(n <= 1)
     {
         return n;
     }
@@ -42,14 +45,15 @@ int Fibonacci(int n)
     return cache[n];
 }
 ```
+记录每次值，避免重复计算：
 
-![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg?bust=189)
+![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_memoized.svg?bust=189)
 
 - 从下到上
 ``` C#
 int Fibonacci(int n)
 {
-    if(n < 1)
+    if(n <= 1)
     {
         return n;
     }
