@@ -14,19 +14,21 @@ DP: 即 **动态规划（dynamic programming）**，是用过去的知识解决�
 
 ![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg)
 ```C#
-int Fibonacci(int n)
-{
-    if(n == 0)
-    {
-        return 0;
-    }
-    if(n == 1)
-    {
-        return 1;
-    }
-    return Fibonacci(n-1) + Fibonacci(n-2);
-}
+        public int FibonacciRecursive(int n)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+
+            var v1 = FibonacciRecursive(n - 1);
+            Console.WriteLine("calculate v1= " + v1);
+            var v2 = FibonacciRecursive(n - 2);
+            Console.WriteLine("calculate v2= " + v2);
+            return v1 + v2;
+        }
 ```
+可以看到共执行了8次
 
 #### 而用动态规划的思路的话，有两种方式：
 
@@ -36,38 +38,63 @@ int Fibonacci(int n)
 
 - 从上到下 - 也就是备忘录模式(Memoization)
 ``` C#
-int[] cache = new int[n];
-int Fibonacci(int n)
-{
-    if(n <= 1)
-    {
-        return n;
-    }
-     //暂存每个子集的和
-    cache[n] = Fibonacci(n - 1) + Fibonacci(n - 2);
-    return cache[n];
-}
+        public int StartFibonacciMemoization(int n)
+        {
+            cache = new int[n];
+            var v = FibonacciMemoization(n);
+            return v;
+        }
+
+        private int FibonacciMemoization(int n)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+
+            if (cache[n - 1] != 0)
+            {
+                return cache[n];
+            }
+
+            //暂存每个子集的和
+            cache[n - 1] = FibonacciMemoization(n - 1) + FibonacciMemoization(n - 2);
+            Console.WriteLine("calculate cache[" + n + "-1]= " + cache[n - 1]);
+            return cache[n - 1];
+        }
+```
+可以看到一共只执行了3次计算，也就是FibonacciMemoization被调用了3次：
+从上到下的方式，使用迭代的方式，按n，n-1，n-2，n-3，n-i...4..3..2..1..0的顺序记录缓存的值。
+```
+calculate cache[1]= 1
+calculate cache[2]= 2
+calculate cache[3]= 4
 ```
 
 
 - 从下到上
 ``` C#
-int Fibonacci(int n)
-{
-    if(n <= 1)
-    {
-        return n;
-    }
-    int[] cache = new int[n]; //暂存每个子集的和
-    cache[0] = 0;
-    cache[1] = 1;
-    for(int i = 2; i < n+1; i++)
-    {
-        cache[i] = cache(n-1) + cache(n-2);
-    } 
-    return cache[n];
-}
+        public int FibonacciBottomUp(int n)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+
+            cache = new int[n+1]; //暂存每个子集的和
+            cache[0] = 0;
+            cache[1] = 1;
+            for (int i = 2; i < n+1; i++)
+            {
+                cache[i] = cache[i - 1] + cache[i - 2];
+                Console.WriteLine("calculate cache[" + (i) + "]= " + cache[i]);
+            }
+
+            return cache[n];
+        }
 ```
+
+而从下到上的方式，只有一次调用，使用迭代的方式，按0，1，2，3，4...n的顺序记录缓存的值。
 
 
 #### 使用动态规划的步骤是：
