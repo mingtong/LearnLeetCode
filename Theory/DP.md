@@ -30,19 +30,15 @@ int Fibonacci(int n)
 
 - 从上到下 - 也就是备忘录模式(Memoization)
 ``` C#
+int[] cache = new int[n];
 int Fibonacci(int n)
 {
     if(n < 1)
     {
         return n;
     }
-    int[] cache = new int[n]; //暂存每个子集的和
-    cache[0] = 0;
-    cache[1] = 1;
-    for(int i = 2; i < n+1; i++)
-    {
-        cache[i] = cache(n-1) + cache(n-2);
-    } 
+     //暂存每个子集的和
+    cache[n] = Fibonacci(n - 1) + Fibonacci(n - 2);
     return cache[n];
 }
 ```
