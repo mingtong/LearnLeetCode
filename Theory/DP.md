@@ -43,6 +43,8 @@ int Fibonacci(int n)
 }
 ```
 
+![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg?bust=189)
+
 - 从下到上
 ``` C#
 int Fibonacci(int n)
