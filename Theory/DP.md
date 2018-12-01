@@ -10,7 +10,9 @@ DP: 即 **动态规划（dynamic programming）**，是用过去的知识解决�
 而 F<sub>0</sub> = 0， F<sub>1</sub>= 1。 
 
 #### 用递归来解决的话：
+按照传统思路
 
+![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg)
 ```C#
 int Fibonacci(int n)
 {
@@ -28,8 +30,9 @@ int Fibonacci(int n)
 
 #### 而用动态规划的思路的话，有两种方式：
 
-按照传统思路
-![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_recursive.svg?bust=189)
+记录每次值，避免重复计算：
+
+![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_memoized.svg)
 
 - 从上到下 - 也就是备忘录模式(Memoization)
 ``` C#
@@ -45,9 +48,7 @@ int Fibonacci(int n)
     return cache[n];
 }
 ```
-记录每次值，避免重复计算：
 
-![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_memoized.svg?bust=189)
 
 - 从下到上
 ``` C#
