@@ -40,7 +40,8 @@ DP: 即 **动态规划（dynamic programming）**，是用过去的知识解决�
 
 ![](https://www.interviewcake.com/images/svgs/fibonacci__binary_tree_memoized.svg)
 
-- 从上到下 - 也就是备忘录模式(Memoization)
+- 从上到下 - 也就是备忘录模式(Memoization)，仍然是递归，但是如果有计算过的值，就直接查表
+
 ``` C#
         public int StartFibonacciMemoization(int n)
         {
@@ -76,7 +77,7 @@ calculate cache[3]= 4
 ```
 
 
-- 从下到上
+- 从下到上，也就是从小的范围向大的范围计算
 ``` C#
         public int FibonacciBottomUp(int n)
         {
@@ -157,7 +158,7 @@ calculate cache[3]= 4
 > - [TopCoder之DP介绍](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 > - [sysu](http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf)
 > - [Codechef教程](https://www.codechef.com/wiki/tutorial-dynamic-programming)
-> - [CSDN-HankingHu](https://blog.csdn.net/u013309870/article/details/75193592)
+> - [CnBlogs-QingLiXueShi](https://www.cnblogs.com/mengwang024/p/4342796.html)
 
 #### 练习题
 
