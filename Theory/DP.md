@@ -142,6 +142,39 @@ calculate cache[3]= 4
         }
 ```
 
+#### Case3
+
+LeetCode #53 Max Subarray 问题。给定一个数组，求最大连续子数组（最少有一个元素）之和。比如
+> 数组是：[-2,1,-3,4,-1,2,1,-5,4]
+> 输出是：6
+
+因为连续子数组[4,-1,2,1]=6是所有可能性中最大的值。
+
+实现代码如下：
+``` C#
+    public int MaxSubArray(int[] nums) {
+        int[] dp = new int[nums.Length];
+        dp[0] = nums[0];
+        int result = dp[0];
+        
+        for(int i = 1; i < nums.Length; i++)
+        {
+            dp[i] = Math.Max(nums[i], dp[i-1] + nums[i]);
+            result = Math.Max(result, dp[i]);
+        }
+        
+        return result;
+    }
+```
+
+要查的表（最优子结构）定义为 dp[]，最大长度与数组长度相同。从左向右，显然dp[0]只能是数组第一个元素的值。递推的话，
+- dp[0] = array[0]; // -2
+- dp[1] = max(array[1], dp[0] + array[1]); // max(1, -2 + 1) = 1, result = 1;
+- dp[2] = max(array[2], dp[1] + array[2]); // max(-3, 1 + -3) = -2, result = 1;
+- dp[3] = max(array[3], dp[2] + array[3]); // max(4, -2 + 4) = 4, result = 4;
+- ...
+
+
 #### 使用动态规划的步骤是：
 
  1. 找出问题中的递归。
