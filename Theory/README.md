@@ -140,8 +140,8 @@
 ### Algorithm | technique
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
-|[DP基础](DP.md)|Dynamic Programming || |
 |[递归算法](Recursion.md)|Recursion| | |
+|[DP基础](DP.md)|Dynamic Programming || |
 |[贪心算法](Greedy.md)|Greedy|局部最优解| |
 |[分治算法](DeviceAndConquer.md)|DevideAndConquer|拆分问题，分而治之 | |
 |回溯算法|Backtracking| | |
@@ -150,6 +150,7 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[LRU缓存](Cache-LRUCache.md)|LRU Cache | | |
+|随机|Random | | |
 
 ### Java 数据结构关系图：
 
