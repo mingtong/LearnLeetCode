@@ -100,6 +100,40 @@ calculate cache[3]= 4
 
 而从下到上的方式，只有一次调用，使用迭代的方式，按0，1，2，3，4...n的顺序记录缓存的值。
 
+#### Case2
+
+算法导论中的钢条切割问题：卖出8种长度的钢条，长度以及长度对应的价值分别是：
+> - {1, 2, 3, 4, 5,  6,  7,  8,  9,  10}
+> - {1, 5, 8, 9, 10, 17, 17, 20, 24, 30}
+
+如果给出原钢条的长度，求问如何切割使利益最大化？
+如果给出长度是1的钢条，则只有一种切法，即价值是1。
+如果给出长度是2的钢条，则有两种切法，两个长度1，或一个长度2。一个长度2的价值最大，为5。
+如果给出长度是2的钢条，则有三种切法，三个长度1，或一个长度2+一个长度1，或一个长度3。一个长度3的价值最大，为8。
+以此类推。
+
+从下到上的代码实现如下：
+``` C#
+        public int BottomUpCut(int n)
+        {
+            int[] amount = new int[n + 1];
+            for (int i = 1; i <= n; i++)
+            {
+                int optimal = -1;
+                //get the optimal solution
+                for (int j = 1; j <= i; j++)
+                {
+                    var v = price[j - 1] + amount[i - j];
+                    optimal = Math.Max(optimal, v);
+                }
+
+                amount[i] = optimal;
+                Console.WriteLine("calculate amount[" + (i) + "]= " + amount[i]);
+            }
+
+            return amount[n];
+        }
+```
 
 #### 使用动态规划的步骤是：
 
