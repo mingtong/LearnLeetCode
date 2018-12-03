@@ -153,7 +153,7 @@ LeetCode #53 Max Subarray 问题。给定一个数组，求最大连续子数组
 实现代码如下：
 ``` C#
     public int MaxSubArray(int[] nums) {
-        int[] dp = new int[nums.Length];
+        int[] dp = new int[nums.Length];//dp[i] means the maximum subarray ending with A[i];
         dp[0] = nums[0];
         int result = dp[0];
         
@@ -167,7 +167,7 @@ LeetCode #53 Max Subarray 问题。给定一个数组，求最大连续子数组
     }
 ```
 
-要查的表（最优子结构）定义为 dp[]，最大长度与数组长度相同。从左向右，显然dp[0]只能是数组第一个元素的值。递推的话，
+要查的表（最优子结构）定义为 dp[]，最大长度与数组长度相同。dp[i]表示array[i]结尾的最大子数组。从左向右，显然dp[0]只能是数组第一个元素的值。递推的话：
 - dp[0] = array[0]; // -2
 - dp[1] = max(array[1], dp[0] + array[1]); // max(1, -2 + 1) = 1, result = 1;
 - dp[2] = max(array[2], dp[1] + array[2]); // max(-3, 1 + -3) = -2, result = 1;
