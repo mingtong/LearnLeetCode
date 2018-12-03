@@ -5,6 +5,9 @@
 
 ### 缺点：
 它需要证明后才能真正运用到题目的算法中。因为局部最优解未必是整体最优解。
+如下图：
+
+![](https://ds055uzetaobb.cloudfront.net/image_optimizer/1e48fa5499c2b71b19ae7c9606d73673c972f3ad.gif)
 
 ### 使用案例
 - 最小生成树：**Prim 算法** 和 **Kruskal 算法**
