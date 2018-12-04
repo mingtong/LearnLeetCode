@@ -2,20 +2,11 @@ using System;
 using System.Runtime;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
 
 namespace LeetCode
 {
-    public class TreeNode
-    {
-        public int Val;
-        public TreeNode Left;
-        public TreeNode Right;
 
-        public TreeNode(int v)
-        {
-            this.Val = v;
-        }
-    }
 
     public class BinaryTree
     {
@@ -24,7 +15,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// Recursively PreOrderTraversal
+        /// #144 Recursively PreOrderTraversal
         /// </summary>
         /// <param name="root"></param>
         public void PreOrderTraversalRecursively(TreeNode root)
@@ -34,13 +25,13 @@ namespace LeetCode
                 return;
             }
 
-            PreOrderTraversalRecursively(root.Left);
-            Console.WriteLine(root.Val);
-            PreOrderTraversalRecursively(root.Right);
+            PreOrderTraversalRecursively(root.left);
+            Console.WriteLine(root.val);
+            PreOrderTraversalRecursively(root.right);
         }
 
         /// <summary>
-        /// 
+        /// #144 iteratively
         /// </summary>
         public IList<int> PreOrderTraversal(TreeNode root)
         {
@@ -54,19 +45,19 @@ namespace LeetCode
             stack.Push(root);
             while (stack.Count > 0)
             {
-                result.Add(root.Val);
+                result.Add(root.val);
 
                 var node = stack.Pop();
 
                 //right child is pushed first so that left is processed first
-                if (node.Right != null)
+                if (node.right != null)
                 {
-                    stack.Push(node.Right);
+                    stack.Push(node.right);
                 }
 
-                if (node.Left != null)
+                if (node.left != null)
                 {
-                    stack.Push(node.Left);
+                    stack.Push(node.left);
                 }
             }
 
@@ -74,7 +65,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// InOrderTraversal iteration
+        /// #94 InOrderTraversal iteration
         /// </summary>
         public IList<int> InOrderTraversal(TreeNode root)
         {
@@ -85,13 +76,13 @@ namespace LeetCode
                 if (root != null)
                 {
                     stack.Push(root);
-                    root = root.Left;
+                    root = root.left;
                 }
                 else
                 {
                     root = stack.Pop();
-                    sequence.Add(root.Val);
-                    root = root.Right;
+                    sequence.Add(root.val);
+                    root = root.right;
                 }
             }
 
@@ -99,7 +90,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// 
+        /// #145
         /// </summary>
         public IList<int> PostOrderTraversal(TreeNode root)
         {
@@ -116,20 +107,20 @@ namespace LeetCode
                 if (root != null)
                 {
                     stack.Push(root);
-                    root = root.Left;
+                    root = root.left;
                 }
                 else
                 {
                     var peekNode = stack.Peek();
                     // if right child exists and traversing node
                     // from left child, then move right
-                    if (peekNode.Right != null && lastNodeVisited != peekNode.Right)
+                    if (peekNode.right != null && lastNodeVisited != peekNode.right)
                     {
-                        root = peekNode.Right;
+                        root = peekNode.right;
                     }
                     else
                     {
-                        result.Add(peekNode.Val);
+                        result.Add(peekNode.val);
                         lastNodeVisited = stack.Pop();
                     }
                 }
@@ -139,7 +130,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// 
+        /// #102 level order traversal
         /// </summary>
         public IList<IList<int>> LevelOrderTraversal(TreeNode root)
         {
@@ -158,15 +149,15 @@ namespace LeetCode
                 for (int i = 0; i < level; i++)
                 {
                     var node = q.Dequeue();
-                    subList.Add(node.Val);
-                    if (node.Left != null)
+                    subList.Add(node.val);
+                    if (node.left != null)
                     {
-                        q.Enqueue(node.Left);
+                        q.Enqueue(node.left);
                     }
 
-                    if (node.Right != null)
+                    if (node.right != null)
                     {
-                        q.Enqueue(node.Right);
+                        q.Enqueue(node.right);
                     }
                 }
 
@@ -176,7 +167,12 @@ namespace LeetCode
             return result;
         }
 
-        public IList<IList<int>> LevelOrderTraversalRevrese(TreeNode root)
+        /// <summary>
+        /// #107
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public IList<IList<int>> LevelOrderTraversalReverse(TreeNode root)
         {
             var result = new List<IList<int>>();
             if (root == null)
@@ -194,15 +190,15 @@ namespace LeetCode
                 for (int i = 0; i < level; i++)
                 {
                     var node = q.Dequeue();
-                    subList.Add(node.Val);
-                    if (node.Left != null)
+                    subList.Add(node.val);
+                    if (node.left != null)
                     {
-                        q.Enqueue(node.Left);
+                        q.Enqueue(node.left);
                     }
 
-                    if (node.Right != null)
+                    if (node.right != null)
                     {
-                        q.Enqueue(node.Right);
+                        q.Enqueue(node.right);
                     }
                 }
 
@@ -218,7 +214,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// 
+        /// #103
         /// </summary>
         public IList<IList<int>> ZigZagLevelOrderTraversal(TreeNode root)
         {
@@ -241,21 +237,21 @@ namespace LeetCode
                     TreeNode n = q.Dequeue();
                     if (isOrder)
                     {
-                        tmp.Add(n.Val);
+                        tmp.Add(n.val);
                     }
                     else
                     {
-                        tmp.Insert(0, n.Val);
+                        tmp.Insert(0, n.val);
                     }
 
-                    if (n.Left != null)
+                    if (n.left != null)
                     {
-                        q.Enqueue(n.Left);
+                        q.Enqueue(n.left);
                     }
 
-                    if (n.Right != null)
+                    if (n.right != null)
                     {
-                        q.Enqueue(n.Right);
+                        q.Enqueue(n.right);
                     }
                 }
 
@@ -271,36 +267,103 @@ namespace LeetCode
         /// 
         /// </summary>
         /// <returns></returns>
-        public bool IsSymmetry()
-        {
-            return false;
-        }
-
-        public bool IsBST(TreeNode root)
+        public bool IsSymmetricRecursively(TreeNode root)
         {
             if (root == null)
             {
                 return false;
             }
 
-            if (root.Left != null)
+            if (root.left != root.right)
             {
-                if (root.Left.Val > root.Val)
-                {
-                    return false;
-                }
+                return false;
             }
-            if (root.Right != null)
-            {
-                if (root.Right.Val < root.Val)
-                {
-                    return false;
-                }
-            }
-            
-            return IsBST(root.Left) && IsBST(root.Right);
+
+            bool L = IsSymmetricRecursively(root.left);
+            bool R = IsSymmetricRecursively(root.right);
+            return L && R;
         }
 
+        /// <summary>
+        /// #101 is Symmetric?
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public bool IsSymmetric(TreeNode root)
+        {
+            var q = new Queue<TreeNode>();
+            if (root == null)
+            {
+                return true;
+            }
+
+            q.Enqueue(root.left);
+            q.Enqueue(root.right); // Queue can enqueue null value
+            while (q.Count > 1)
+            {
+                TreeNode left = q.Dequeue();
+                TreeNode right = q.Dequeue();
+                if (left == null && right == null)
+                {
+                    continue;
+                }
+
+                if (left == null ^ right == null)
+                {
+                    return false;
+                }
+
+                if (left.val != right.val)
+                {
+                    return false;
+                }
+
+                q.Enqueue(left.left);
+                q.Enqueue(right.right);
+                q.Enqueue(left.right);
+                q.Enqueue(right.left);
+            }
+
+            return true;
+        }
+
+        /// <summary>
+        /// #98 Is a binary search tree?
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public bool IsBST(TreeNode root)
+        {
+            var sequence = new List<int>();
+            var stack = new Stack<TreeNode>();
+            while (stack.Count > 0 || root != null)
+            {
+                if (root != null)
+                {
+                    stack.Push(root);
+                    root = root.left;
+                }
+                else
+                {
+                    root = stack.Pop();
+                    if (sequence.Count > 0 && sequence.Last() >= root.val)
+                    {
+                        return false;
+                    }
+
+                    sequence.Add(root.val);
+                    root = root.right;
+                }
+            }
+
+            return true;
+        }
+
+        /// <summary>
+        /// #110 is the binary tree balanced?
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public bool IsBalanced(TreeNode root)
         {
             if (root == null)
@@ -308,14 +371,14 @@ namespace LeetCode
                 return true;
             }
 
-            int L = MaxHeight(root.Left);
-            int R = MaxHeight(root.Right);
+            int L = MaxHeight(root.left);
+            int R = MaxHeight(root.right);
 
-            return Math.Abs(L - R) < 2 && IsBalanced(root.Left) && IsBalanced(root.Right);
+            return Math.Abs(L - R) < 2 && IsBalanced(root.left) && IsBalanced(root.right);
         }
 
         /// <summary>
-        /// 
+        /// #100 
         /// </summary>
         /// <param name="t"></param>
         /// <returns></returns>
@@ -331,16 +394,16 @@ namespace LeetCode
                 return false;
             }
 
-            if (t1.Val == t2.Val)
+            if (t1.val == t2.val)
             {
-                return IsSameTree(t1.Left, t2.Left) && IsSameTree(t1.Right, t2.Right);
+                return IsSameTree(t1.left, t2.left) && IsSameTree(t1.right, t2.right);
             }
 
             return false;
         }
 
         /// <summary>
-        /// 
+        /// #226 recursively
         /// </summary>
         public TreeNode Invert(TreeNode root)
         {
@@ -349,14 +412,19 @@ namespace LeetCode
                 return null;
             }
 
-            TreeNode temp = root.Left;
-            root.Left = root.Right;
-            root.Right = temp;
-            Invert(root.Left);
-            Invert(root.Right);
+            TreeNode temp = root.left;
+            root.left = root.right;
+            root.right = temp;
+            Invert(root.left);
+            Invert(root.right);
             return root;
         }
 
+        /// <summary>
+        /// #226 iteratively
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public TreeNode InvertIteratively(TreeNode root)
         {
             if (root == null)
@@ -369,17 +437,18 @@ namespace LeetCode
             while (queue.Count > 0)
             {
                 var node = queue.Dequeue();
-                var left = node.Left;
-                node.Left = node.Right;
-                node.Right = left;
+                var left = node.left;
+                node.left = node.right;
+                node.right = left;
 
-                if (node.Left != null)
+                if (node.left != null)
                 {
-                    queue.Enqueue(node.Left);
+                    queue.Enqueue(node.left);
                 }
-                if (node.Right != null)
+
+                if (node.right != null)
                 {
-                    queue.Enqueue(node.Right);
+                    queue.Enqueue(node.right);
                 }
             }
 
@@ -387,7 +456,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// 
+        /// #104
         /// </summary>
         /// <returns></returns>
         public int MaxHeight(TreeNode root)
@@ -397,13 +466,13 @@ namespace LeetCode
                 return 0;
             }
 
-            int L = MaxHeight(root.Left);
-            int R = MaxHeight(root.Right);
+            int L = MaxHeight(root.left);
+            int R = MaxHeight(root.right);
             return Math.Max(L, R) + 1;
         }
 
         /// <summary>
-        /// 
+        /// #111
         /// </summary>
         /// <returns></returns>
         public int MinHeight(TreeNode root)
@@ -413,14 +482,48 @@ namespace LeetCode
                 return 0;
             }
 
-            int L = MinHeight(root.Left);
-            int R = MinHeight(root.Right);
+            int L = MinHeight(root.left);
+            int R = MinHeight(root.right);
             if (L == 0 || R == 0)
             {
                 return L + R + 1;
             }
 
             return Math.Min(L, R) + 1;
+        }
+
+        /// <summary>
+        /// #230
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public int KthSmallest(TreeNode root, int k)
+        {
+            //in-order to iterate
+            int i = 0;
+            var sequence = new List<int>();
+            var stack = new Stack<TreeNode>();
+            while (stack.Count > 0 || root != null)
+            {
+                if (root != null)
+                {
+                    stack.Push(root);
+                    root = root.left;
+                }
+                else
+                {
+                    root = stack.Pop();
+                    sequence.Add(root.val);
+                    if (i++ == k)
+                    {
+                        return root.val;
+                    }
+
+                    root = root.right;
+                }
+            }
+
+            return i; // not important, never go here.
         }
     }
 }
