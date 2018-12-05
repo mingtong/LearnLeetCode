@@ -54,7 +54,7 @@ public class BST
         }
     }
     //插入结点
-    public void put(Node node, int key, int value)
+    public Node put(Node node, int key, int value)
     {
         if(node == null)
         {
