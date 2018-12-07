@@ -6,8 +6,6 @@ using System.Linq;
 
 namespace LeetCode
 {
-
-
     public class BinaryTree
     {
         public BinaryTree()
@@ -524,6 +522,45 @@ namespace LeetCode
             }
 
             return i; // not important, never go here.
+        }
+
+        /// <summary>
+        /// #112 Path Sum using post order traversal
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="sum"></param>
+        /// <returns></returns>
+        public bool HasPathSum(TreeNode root, int sum)
+        {
+            var stack = new Stack<TreeNode>();
+            var sums = new Stack<int>();
+
+            stack.Push(root);
+            sums.Push(sum);
+            while (stack.Count > 0 && (root != null))
+            {
+                var value = sums.Pop();
+                var top = stack.Pop();
+
+                if (top.left == null && top.right == null && top.val == value)
+                {
+                    return true;
+                }
+
+                if (top.right != null)
+                {
+                    stack.Push(top.right);
+                    sums.Push(value - top.val);
+                }
+
+                if (top.left != null)
+                {
+                    stack.Push(top.left);
+                    sums.Push(value - top.val);
+                }
+            }
+
+            return false;
         }
     }
 }
