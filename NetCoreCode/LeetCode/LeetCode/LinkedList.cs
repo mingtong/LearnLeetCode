@@ -13,7 +13,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// Delete the node in the LinkedList
+        /// #237 Delete the node in the LinkedList
         /// </summary>
         /// <param name="node">node</param>
         public void DeleteNode(ListNode node)
@@ -208,7 +208,7 @@ namespace LeetCode
         /// <summary>
         /// #206 Reverse LinkedList
         /// </summary>
-        public ListNode ReverseIntertively(ListNode head)
+        public ListNode ReverseIteratively(ListNode head)
         {
             if (head == null)
             {
@@ -226,6 +226,42 @@ namespace LeetCode
             }
 
             return dummy.next;
+        }
+        
+        /// <summary>
+        /// #92 Reverse Linked List (between [m, n])
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="m"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public ListNode ReverseBetween(ListNode head, int m, int n) {
+            ListNode dummyhead = new ListNode(0);
+            dummyhead.next = head;
+        
+            ListNode sublisthead = new ListNode(0);
+            ListNode sublisttail = new ListNode(0);
+            int count = 1;
+        
+            ListNode pre_cur = dummyhead;
+            ListNode cur = head;
+            while(count <= n){
+                ListNode temp = cur.next;
+                if (count < m)
+                    pre_cur = cur;
+                else if (count == m){
+                    sublisttail = cur;
+                    sublisthead.next = cur;
+                }else if (count > m){
+                    cur.next = sublisthead.next;
+                    sublisthead.next = cur;
+                }
+                cur = temp;
+                ++count;
+            }
+            pre_cur.next = sublisthead.next;
+            sublisttail.next = cur;
+            return dummyhead.next;        
         }
 
         /// <summary>
@@ -405,6 +441,203 @@ namespace LeetCode
             }
 
             return head.next;
+        }
+        
+        /// <summary>
+        /// #445 Add Two Numbers II
+        /// digit is opposite
+        /// </summary>
+        /// <param name="l1"></param>
+        /// <param name="l2"></param>
+        /// <returns></returns>
+        public ListNode AddTwoNumbers2(ListNode l1, ListNode l2) {
+            if(l1 == null)
+            {
+                return l2;
+            }
+            if(l2 == null)
+            {
+                return l1;
+            }
+            ListNode r1 = l1;
+            ListNode r2 = l2;
+        
+            Stack<ListNode> stack1 = new Stack<ListNode>();
+            Stack<ListNode> stack2 = new Stack<ListNode>();
+        
+            while(r1 != null || r2 != null)
+            {
+                if(r1!=null) 
+                {
+                    stack1.Push(r1);
+                    r1 = r1.next;
+                }
+                if(r2!=null) 
+                {
+                    stack2.Push(r2);
+                    r2 = r2.next;
+                }
+            }
+        
+            ListNode newHead = null;
+            bool curry = false;
+        
+            while(stack1.Count>0 || stack2.Count>0)
+            {
+                int val = 0;
+                if(stack1.Count>0)
+                {
+                    val += stack1.Pop().val;
+                }
+                if(stack2.Count>0)
+                {
+                    val += stack2.Pop().val;
+                }
+                if(curry)
+                {
+                    val++;
+                }
+                curry = (val >= 10);
+                ListNode newNode = new ListNode(val%10);
+                newNode.next = newHead;
+                newHead = newNode;
+            }
+            if(curry)
+            {
+                ListNode newNode = new ListNode(1);
+                newNode.next = newHead;
+                newHead = newNode;            
+            }
+        
+            return newHead;
+        }
+        /// <summary>
+        /// #61 Rotate k places(k times to right)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        public ListNode RotateRight(ListNode head, int k) {
+            if (head == null || head.next == null) 
+            {
+                return head;
+            }
+        
+            ListNode dummy = new ListNode(0);
+            dummy.next = head;
+            ListNode fast = dummy;
+            ListNode slow = dummy;
+
+            int i;
+            for (i = 0; fast.next != null; i++)//Get the total length
+            {
+                fast=fast.next;
+            }
+
+            for (int j = i - k % i; j > 0; j--) //Get the i-n%i th node
+            {
+                slow = slow.next;
+            }           
+
+            fast.next = dummy.next; //Do the rotation
+            dummy.next = slow.next;
+            slow.next = null;
+
+            return dummy.next;
+        }
+        
+        /// <summary>
+        /// #24 swap nodes in pair
+        /// 1-2-3-4 to 2-1-4-3
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
+        public ListNode SwapPairs(ListNode head) {
+            if(head == null)
+            {
+                return null;
+            }
+        
+            ListNode dummyHead = new ListNode(0);
+            dummyHead.next = head;
+        
+            ListNode runNode = dummyHead;
+            while(runNode.next != null &&　runNode.next.next != null)
+            {
+                ListNode first = runNode.next;
+                ListNode second = runNode.next.next;
+                first.next = second.next;
+                runNode.next = second;
+                runNode.next.next = first;
+                runNode = runNode.next.next;
+            }
+            return dummyHead.next;
+        }
+
+        /// <summary>
+        /// #328 Odd Even Linked List
+        /// 1-2-3-4-5-6 to 1-3-5-2-4-6
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
+        public ListNode OddEvenList(ListNode head)
+        {
+            if(head == null || head.next == null || head.next.next == null)
+            {
+                return head;
+            }
+        
+            ListNode oddHead = head;
+            ListNode evenHead = head.next;
+        
+            ListNode odd = oddHead;
+            ListNode even = evenHead;
+        
+            while(odd != null && odd.next != null && odd.next.next != null)
+            {
+                odd.next = odd.next.next;
+                even.next = even.next.next;
+                odd = odd.next;
+                even = even.next;
+            }
+
+            odd.next = evenHead;
+            return oddHead;
+        }
+
+        /// <summary>
+        /// #86 Partition List, split by value
+        /// 1->4->3->2->5->2, x = 3 to 1->2->2->4->3->5
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public ListNode Partition(ListNode head, int x)
+        { //dummy heads of the 1st and 2nd queues
+            ListNode dummy1 = new ListNode(0);
+            ListNode dummy2 = new ListNode(0);  
+        
+            //current tails of the two queues;
+            ListNode curr1 = dummy1;
+            ListNode curr2 = dummy2;  
+        
+            while(head != null){
+                if(head.val < x) 
+                {
+                    curr1.next = head;
+                    curr1 = head;
+                }
+                else 
+                {
+                    curr2.next = head;
+                    curr2 = head;
+                }
+                head = head.next;
+            }
+            curr2.next = null;          
+            //important! avoid cycle in linked list. otherwise u will get TLE.
+            curr1.next = dummy2.next;
+            return dummy1.next;
         }
     }
 }
