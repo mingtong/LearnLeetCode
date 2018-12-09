@@ -120,7 +120,7 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[并查集](UnionFind.md)|UnionFind \| Disjoint || |
-|[跳表](SkipList.md)|Skip List || |
+|[跳表](SkipList.md)|Skip List |缩短有序链表的查找时间| |
 
 ---
 
