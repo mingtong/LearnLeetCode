@@ -19,7 +19,6 @@
 | :---|:---  |:---|:---|
 |[数组](Theory/Array.md)|Array |快速索引 | |
 |[链表](Theory/LinkedList.md)|LinkedList|动态增长 ||
-|[跳表](Theory/SkipList.md)|SkipList || |
 |[字符串](Theory/String.md)|String | | |
 |[栈](Theory/Stack.md) |Stack|先进后出 ||
 |[队列](Theory/Queue.md)|Queue |先进先出 ||
