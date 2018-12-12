@@ -67,9 +67,9 @@
 |Java.红黑树k列表|TreeSet |红黑树方式存储的去重key列表 |[Java官方介绍](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html) |
 |[.NET红黑树k列表](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1?view=netframework-4.7.2) |SortedSet |红黑树方式存储的去重key列表|[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedSet.cs) |
 |~~[SortedList(kv)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.7.2)~~|~~SortedList~~ |~~内部是两个数组,使用二分查找~~ |~~[.NET官方源码](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs) ~~|
-|B树 |B Tree|| |
-|B+树 |B+ Tree|| |
-
+|B树 |B Tree|广泛应用于数据库索引| |
+|B+树 |B+ Tree|用于数据库索引| |
+|LSM树 |B+ Tree|用于数据库索引| |
 **注意**：
   - SortSet 在Java中是接口，在.NET中是具体类
   - List在 Java中是接口，在.NET中是具体类
