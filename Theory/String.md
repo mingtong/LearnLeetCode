@@ -7,3 +7,19 @@
     a - 32 = 65;
     (char)(a - 32) = A;
   ```
+- char[] to string
+  ```C#
+    string ss = "abcdefg";
+    char[] cc = ss.ToCharArray();
+  ```
+- string to Char[]
+  ```C#
+    char[] cc = {'a', 'b', 'c'};
+    string s = new string(cc);
+  ```
+- byte <-> string
+  ```C#
+    byte[] bb = Encoding.UTF8.GetBytes(ss);
+    string s = Encoding.UTF8.GetString(bb);
+  ```
+  
