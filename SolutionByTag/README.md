@@ -33,6 +33,7 @@
 ### DP
   - #53 [Maximum subarray problem](http://blog.csdn.net/cuit/article/details/78572326)
 ### UnionFind
+  - #547-[Friend Circles](SolutionByOrder/../0547-FriendCircles.md)
 ### Greedy
 ### Backtracking
 ### BitOperation
