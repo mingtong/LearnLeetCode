@@ -57,3 +57,7 @@ int hash = (((area * R + exch) % M) * R + ext) % M;
 - 继续查找下一个 key-value 对象。
 
 ![](https://algs4.cs.princeton.edu/34hash/images/linear-probing.png)
+
+### 题型
+- #1 Two sum
+- #3 最长不重复子串
