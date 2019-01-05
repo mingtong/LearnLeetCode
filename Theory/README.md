@@ -141,7 +141,7 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[递归算法](Recursion.md)|Recursion| | |
-|[DP基础](DP.md)|Dynamic Programming || |
+|[动态规划DP](DP.md)|Dynamic Programming || |
 |[贪心算法](Greedy.md)|Greedy|局部最优解| |
 |[分治算法](DeviceAndConquer.md)|DevideAndConquer|拆分问题，分而治之 | |
 |回溯算法|Backtracking| | |
