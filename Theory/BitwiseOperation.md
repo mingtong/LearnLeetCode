@@ -1,4 +1,4 @@
-## 位运算(in progress)
+## 位运算
 
 ### Bitwise XOR
 XOR(^) ：异或，数学符号为 ^
@@ -41,6 +41,18 @@ A = A ^ B;
 0 | 1 = 1
 0 | 0 = 0
 ```
+
+### Bitwise Shift
+left shift (<<): 相当于左移并在末尾添加 0，或者说 乘以 2 的 n次方。
+  - 1 << 1 = 2 = 2<sup>1</sup>
+  - 1 << 2 = 4 = 2<sup>2</sup> 
+  - 1 << 3 = 8 = 2<sup>3</sup>
+  - 1 << 4 = 16 = 2<sup>4</sup> 
+Right Shift (>>): 相当于右移并在高位添加 0，或者说 除以 2 的 n次方。
+  - 4 >> 1 = 2
+  - 6 >> 1 = 3
+  - 5 >> 1 = 2
+  - 16 >> 4 = 1
 
 #### 参考资料
 > - https://xijunlee.github.io/2017/04/01/efficiently/ 
