@@ -27,6 +27,7 @@
     string s = Encoding.UTF8.GetString(bb);
   ```
 
-### Regex
+### 题型
+  - #8 String to Integer
 
   
