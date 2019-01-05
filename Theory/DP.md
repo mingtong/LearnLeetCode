@@ -187,7 +187,8 @@ LeetCode #53 Max Subarray 问题。给定一个数组，求最大连续子数组
 - DP 算法不会因为 Memoization 而加速，因为每个子问题只被解决了一次。
 
 
-
+#### Leetcode 题型
+- #53 Maximum subarray problem
 
 #### 参考资料
 > - [wiki](http://en.wikipedia.org/wiki/Dynamic_programming)
