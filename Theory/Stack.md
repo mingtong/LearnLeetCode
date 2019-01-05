@@ -13,6 +13,21 @@ public class Stack<T>
 }
 ```
 
+## 队列
+
+
+Queue 在C#和Java中都有现成的定义，且在LeetCode中也可以直接使用。 
+其泛型版本定义的主要属性和方法如下：
+``` C#
+public class Queue<T>
+{
+    public int Count;
+    public void Clear();
+    public T Enqueue(); //向 Queue 末尾添加一个元素。
+    public T Dequeue();  //取出 Queue 第一个元素。
+}
+```
+
 ### 技巧/题型
 
 - 用两个栈实现一个队列(#232)(两次栈的反向进出即是正向进出)。
