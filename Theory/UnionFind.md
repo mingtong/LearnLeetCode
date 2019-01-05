@@ -1,5 +1,10 @@
 ## UnionFind (Disjoint Set)
 
+### 题型
+- #547-Friend Circles
+
+### 概念
+
 Union Find，也叫作 Disjoint Set，中文通常译作 “并查集”。 
 Union Find 有两种操作：Union 和 Find，即“连接”和“查找”。
 
