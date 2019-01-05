@@ -106,6 +106,8 @@ tailrecsum(0, 15)
 
 尾递归在多数高级语言的编译器中会被优化成迭代方式。
 
+### 题型
+- #7 Reverse Integer
 
 ### 参考：
  > - [Tail Recursion](https://stackoverflow.com/questions/33923/what-is-tail-recursion)
