@@ -8,7 +8,7 @@
 ---
 
 ### 理论总结(数据结构+基础算法)
- - [知识点由浅入深总结](Theory/README.md)
+ - [知识点总结](Theory/README.md)
 
 
 
