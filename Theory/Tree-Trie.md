@@ -242,4 +242,5 @@ public class TrieNode {
     }
 }
 ```
-
+### 题型
+   - #14 Longest Common Prefix
