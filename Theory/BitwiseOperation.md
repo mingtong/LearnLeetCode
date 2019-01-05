@@ -1,7 +1,7 @@
 ## 位运算
 
-### Bitwise XOR
-XOR(^) ：异或，数学符号为 ^
+### Bitwise XOR(^)
+异或，数学符号为 ^
 ```
 1^0 = 1  
 0^1 = 1  
@@ -27,19 +27,25 @@ B = A ^ B;
 A = A ^ B;
 ```
 
-### Bitwise AND
+### Bitwise AND(&)
 ```
 1 & 1 = 1
 1 & 0 = 0
 0 & 1 = 0
 0 & 0 = 0
 ```
-### Bitwise Inclusive OR
+### Bitwise OR(|)
 ```
 1 | 1 = 1
 1 | 0 = 1
 0 | 1 = 1
 0 | 0 = 0
+```
+
+### Bitwise Not(|)
+```
+~1 = 0
+~0 = 1
 ```
 
 ### Bitwise Shift
