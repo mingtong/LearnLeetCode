@@ -35,7 +35,7 @@
 |:---|:---  |:---|:---|
 |[栈基础理论](Stack.md)|Stack || |
 |[队列基础理论](Queue.md)|Queue || |
-
+|[优先队列基础理论](PriorityQueue.md)|Priority Queue || |
 ---
 
 ### Search
