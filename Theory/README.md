@@ -172,4 +172,36 @@
 
 ![Java 数据结构关系图](../SolutionByTag/img/java-ds.png)
 
+## Amazon Requirement
 
+### Data Structures:
+- Array
+- Linked List
+- Binary Tree, Binary Search Tree, Red-Black Tree
+- Heap
+- Hash Table
+- Stack
+- Queue
+- Trie
+- Graph (both directed and undirected)
+ 
+### Algorithms:
+
+- Sorting
+- Bubble Sort
+- Merge Sort
+- Quick Sort
+- Radix/Bucket Sort
+- Traversals (On multiple data structures)
+- Depth First Search
+- Breadth First Search
+
+### Object Oriented Design:
+
+You should have a working knowledge of a few common and useful design patterns (singleton, factory, adapter, bridge, visitor, command, proxy, observer, etc.) as well as know how to write software in an object oriented way with appropriate use of inheritance and aggregation.
+
+### Cultural Survey:
+
+It would be good to review our 14 leadership principals, because the survey will focus around those. This portion of the assessment is equally as important as the technical component. Have a look at our 14 leadership principles (link below) and think about experiences in your career that pertain to each principle.
+
+https://www.amazon.jobs/principles
