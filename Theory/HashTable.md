@@ -1,6 +1,6 @@
 ## HashTable
 
-假设待查找的对象是这样存在的：[key1, value1], [key2, value2], [keyX, valueX], … 我们可以把key的列表转过转化存入HashTable中。 
+假设待查找的对象是这样存在的：[key1, value1], [key2, value2], [keyX, valueX], … 我们可以把key的列表经过转化存入HashTable中。 
 使用基于HashTable的查找需要两步：
 
 - 用 Hash 函数将所有 key 都转化为数组的索引（整数）。
