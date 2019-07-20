@@ -115,6 +115,8 @@
 |[Dijkstra](Graph-Dijkstra.md)|Dijkstra |单起点，边的权重非负| |
 |Bellman-Ford|Bellman-Ford |基于队列，边的权重可以是负值，图可以有环| |
 |A*|A* ShortestPath || |
+|Hamiltonian path|哈密顿路径 |由指定的起点前往指定的终点，途中经过所有其他节点且只经过一次| |
+|Eulerian graph|欧拉路径|一笔画问题| |
 
 ### Misc
 |类型|英文名/类名|特点|有用链接|
