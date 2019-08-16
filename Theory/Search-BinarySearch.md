@@ -39,6 +39,7 @@ public int search(int key)
     high = Keys.Length -1;
     while(low <= high)
     {
+        int mid = low + (high - low) / 2;
         if(key < keys[mid])
         {
             high = mid-1;
