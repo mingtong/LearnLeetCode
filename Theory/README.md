@@ -48,10 +48,10 @@
 |类型|英文名/类名|特点|有用链接|
 |:---|:---  |:---|:---|
 |[二叉树](Tree-BinaryTree.md) |BinaryTree|| |
-|[二叉树前序遍历](Tree-BinaryPreOrderTraversal.md) |BinaryTree PreOrder|中-左-右 ||
-|[二叉树中序遍历](Tree-BinaryInOrderTraversal.md) |BinaryTree InOrder|左-中-右| |
-|[二叉树后序遍历](Tree-BinaryPostOrderTraversal.md) |BinaryTree PostOrder|左-右-中| |
-|[二叉树层次遍历](Tree-BinarLeveOrderTraversal.md) |BinaryTree LevelOrder|| |
+|[二叉树前序遍历](Tree-BinaryTreePreOrderTraversal.md) |BinaryTree PreOrder|中-左-右 ||
+|[二叉树中序遍历](Tree-BinaryTreeInOrderTraversal.md) |BinaryTree InOrder|左-中-右| |
+|[二叉树后序遍历](Tree-BinaryTreePostOrderTraversal.md) |BinaryTree PostOrder|左-右-中| |
+|[二叉树层次遍历](Tree-BinarTreeLeveOrderTraversal.md) |BinaryTree LevelOrder|| |
 |[二叉树ZigZag遍历](Tree-BinaryTreeZigZagTraversal.md) |BinaryTree ZigZag Traversal|| |
 |[判断二叉树对称](Tree-BinaryTreeIsSymmetry.md) |BinaryTree Is Symmetry|| |
 |[判断二叉树相等](Tree-BinaryTreesAreSame.md.md) |BinaryTree Is Symmetry|| |
