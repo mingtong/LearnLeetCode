@@ -54,6 +54,6 @@ public class Solution {
                 runNode = runNode.right;
             }
         }
-        return result;
+        return result; 
     }
 }
