@@ -34,6 +34,6 @@ class Solution {
 
 #### 总结：
 
-- C# 的 Dictionary 相当于 Java 的 HashMap。但是当向 Dictionary 插入重复元素时需要先判断，而 HashMap 的行为是覆盖。
+- C# 使用 Dictionary，Java 使用 HashMap，Kotlin使用 MutableHashmap.
 
 
