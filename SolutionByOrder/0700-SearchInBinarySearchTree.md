@@ -20,15 +20,11 @@ In the example above, if we want to search the value 5, since there is no node w
 Note that an empty tree is represented by NULL, therefore you would see the expected output (serialized tree format) as [], not null.
 
 #### 思路：
-
 标准的二叉树查找
 
 #### 实现代码：
 ``` kotlin
 /**
- * Example:
- * var ti = TreeNode(5)
- * var v = ti.`val`
  * Definition for a binary tree node.
  * class TreeNode(var `val`: Int) {
  *     var left: TreeNode? = null
